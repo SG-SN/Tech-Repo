@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="x_207260_technic_0_useful_scripts">
+    <x_207260_technic_0_useful_scripts action="INSERT_OR_UPDATE">
+        <name>For incident table</name>
+        <number>SCRIPT0001094</number>
+        <script><![CDATA[var choices = GlideChoiceList.getChoiceList("incident", "close_code");
+
+for (var i = 0; i < choices.getSize(); i++){
+		var choiceValue = choices.getChoice(i).getValue();
+		var choiceLabel = choices.getChoice(i).getLabel();
+		gs.info("Choice Label -> " + choiceLabel + " Choice Value ->" + choiceValue);
+	
+}]]></script>
+        <sys_class_name>x_207260_technic_0_useful_scripts</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-11 07:52:15</sys_created_on>
+        <sys_id>4c98ac67072739105295f19d7c1ed0f5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>For incident table</sys_name>
+        <sys_package display_value="Technical Repo" source="x_207260_technic_0">6362d051072ff5d05295f19d7c1ed08f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Technical Repo">6362d051072ff5d05295f19d7c1ed08f</sys_scope>
+        <sys_update_name>x_207260_technic_0_useful_scripts_4c98ac67072739105295f19d7c1ed0f5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-11 07:52:15</sys_updated_on>
+    </x_207260_technic_0_useful_scripts>
+</record_update>

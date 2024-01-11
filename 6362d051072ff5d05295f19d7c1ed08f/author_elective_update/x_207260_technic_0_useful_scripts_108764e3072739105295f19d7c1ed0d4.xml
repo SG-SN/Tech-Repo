@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="x_207260_technic_0_useful_scripts">
+    <x_207260_technic_0_useful_scripts action="DELETE">
+        <name>Force logout</name>
+        <number>SCRIPT0001046</number>
+        <script><![CDATA[ GlideSessions.lockOutSessionsInAllNodes(gs.getUserName());
+var param1=event.parm1;
+var usr=new GlideRecord('sys_user');
+usr.get('user_name',param1);
+var usrsid=usr.getUniqueValue();
+var rol=new GlideRecord('sys_user_has_role');
+rol.addQuery('role','282bf1fac6112285017366cb5f867469');
+rol.addQuery('user',usrsid);
+rol.query();
+if(rol.next())
+{
+	gs.info("AMUBHU7: "+"ITIL Role Already present for "+param1);
+}
+else
+{
+	var rol1=new GlideRecord('sys_user_has_role');
+	rol1.initialize();
+	rol1.role='282bf1fac6112285017366cb5f867469';
+	rol1.user=usrsid;
+	rol1.insert();
+	gs.info("AMUBHU7: "+"ITIL Role not present so created for: "+param1);
+//	gs.sleep(2000);
+	GlideSessions.lockOutSessionsInAllNodes(param1);
+	
+}
+
+]]></script>
+        <sys_class_name>x_207260_technic_0_useful_scripts</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-11 07:47:37</sys_created_on>
+        <sys_id>108764e3072739105295f19d7c1ed0d4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Force logout</sys_name>
+        <sys_package display_value="Technical Repo" source="x_207260_technic_0">6362d051072ff5d05295f19d7c1ed08f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Technical Repo">6362d051072ff5d05295f19d7c1ed08f</sys_scope>
+        <sys_update_name>x_207260_technic_0_useful_scripts_108764e3072739105295f19d7c1ed0d4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-11 07:47:37</sys_updated_on>
+    </x_207260_technic_0_useful_scripts>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Technical Repo">6362d051072ff5d05295f19d7c1ed08f</application>
+        <file_path/>
+        <instance_id>86c067f4db55695cc9912f17d49619f0</instance_id>
+        <instance_name>dev156891</instance_name>
+        <name>x_207260_technic_0_useful_scripts_108764e3072739105295f19d7c1ed0d4</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="x_207260_technic_0_useful_scripts"&gt;&lt;x_207260_technic_0_useful_scripts action="INSERT_OR_UPDATE"&gt;&lt;name&gt;Force logout&lt;/name&gt;&lt;number&gt;SCRIPT0001046&lt;/number&gt;&lt;script&gt;&lt;![CDATA[ GlideSessions.lockOutSessionsInAllNodes(gs.getUserName());
+var param1=event.parm1;
+var usr=new GlideRecord('sys_user');
+usr.get('user_name',param1);
+var usrsid=usr.getUniqueValue();
+var rol=new GlideRecord('sys_user_has_role');
+rol.addQuery('role','282bf1fac6112285017366cb5f867469');
+rol.addQuery('user',usrsid);
+rol.query();
+if(rol.next())
+{
+	gs.info("AMUBHU7: "+"ITIL Role Already present for "+param1);
+}
+else
+{
+	var rol1=new GlideRecord('sys_user_has_role');
+	rol1.initialize();
+	rol1.role='282bf1fac6112285017366cb5f867469';
+	rol1.user=usrsid;
+	rol1.insert();
+	gs.info("AMUBHU7: "+"ITIL Role not present so created for: "+param1);
+//	gs.sleep(2000);
+	GlideSessions.lockOutSessionsInAllNodes(param1);
+	
+}
+
+]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;x_207260_technic_0_useful_scripts&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-01-11 07:47:37&lt;/sys_created_on&gt;&lt;sys_id&gt;108764e3072739105295f19d7c1ed0d4&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Force logout&lt;/sys_name&gt;&lt;sys_package display_value="Technical Repo" source="x_207260_technic_0"&gt;6362d051072ff5d05295f19d7c1ed08f&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Technical Repo"&gt;6362d051072ff5d05295f19d7c1ed08f&lt;/sys_scope&gt;&lt;sys_update_name&gt;x_207260_technic_0_useful_scripts_108764e3072739105295f19d7c1ed0d4&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-01-11 07:47:37&lt;/sys_updated_on&gt;&lt;/x_207260_technic_0_useful_scripts&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1340193057</payload_hash>
+        <record_name>Force logout</record_name>
+        <reverted_from/>
+        <source>2f62d051072ff5d05295f19d7c1ed093</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-11 07:47:37</sys_created_on>
+        <sys_id>548764e3072739105295f19d7c1ed0d6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18cf77dac820000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-11 07:47:37</sys_updated_on>
+        <type>Useful Scripts</type>
+        <update_guid>948764e3342739100546df0208d7a6d5</update_guid>
+        <update_guid_history>948764e3342739100546df0208d7a6d5:1340193057</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Force logout">0c28e827072739105295f19d7c1ed04a</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-11 07:50:20</sys_created_on>
+        <sys_db_object display_value="" name="x_207260_technic_0_useful_scripts">x_207260_technic_0_useful_scripts</sys_db_object>
+        <sys_id>6476e5f1288d494eb6f310d13f93e5e4</sys_id>
+        <sys_metadata>108764e3072739105295f19d7c1ed0d4</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Force logout</sys_name>
+        <sys_package display_value="Technical Repo" source="x_207260_technic_0">6362d051072ff5d05295f19d7c1ed08f</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Technical Repo">6362d051072ff5d05295f19d7c1ed08f</sys_scope>
+        <sys_scope_delete display_value="">9ee46e1ac4cf42e59c28b7b0b296da89</sys_scope_delete>
+        <sys_update_name>x_207260_technic_0_useful_scripts_108764e3072739105295f19d7c1ed0d4</sys_update_name>
+        <sys_update_version display_value="x_207260_technic_0_useful_scripts_108764e3072739105295f19d7c1ed0d4">548764e3072739105295f19d7c1ed0d6</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-11 07:50:20</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

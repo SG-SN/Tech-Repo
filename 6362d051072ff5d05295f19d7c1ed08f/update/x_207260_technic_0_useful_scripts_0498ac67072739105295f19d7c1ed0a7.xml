@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="x_207260_technic_0_useful_scripts">
+    <x_207260_technic_0_useful_scripts action="INSERT_OR_UPDATE">
+        <name>Timezone offset for DST</name>
+        <number>SCRIPT0001080</number>
+        <script><![CDATA[var tt=new GlideDateTime('2021-11-29');
+var tt1=new GlideDateTime('2021-06-29');
+gs.print(tt)
+gs.print(tt.getTZOffset())
+
+gs.print(tt1)
+gs.print(tt1.getTZOffset())]]></script>
+        <sys_class_name>x_207260_technic_0_useful_scripts</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-11 07:52:15</sys_created_on>
+        <sys_id>0498ac67072739105295f19d7c1ed0a7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Timezone offset for DST</sys_name>
+        <sys_package display_value="Technical Repo" source="x_207260_technic_0">6362d051072ff5d05295f19d7c1ed08f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Technical Repo">6362d051072ff5d05295f19d7c1ed08f</sys_scope>
+        <sys_update_name>x_207260_technic_0_useful_scripts_0498ac67072739105295f19d7c1ed0a7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-11 07:52:15</sys_updated_on>
+    </x_207260_technic_0_useful_scripts>
+</record_update>

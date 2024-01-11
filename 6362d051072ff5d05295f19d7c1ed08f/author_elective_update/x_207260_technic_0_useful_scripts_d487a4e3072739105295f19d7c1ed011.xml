@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="x_207260_technic_0_useful_scripts">
+    <x_207260_technic_0_useful_scripts action="DELETE">
+        <name>Email Regex</name>
+        <number>SCRIPT0001059</number>
+        <script><![CDATA[function isValidEmail(email) {
+  // Regular expression for a basic email validation
+  var emailRegex = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
+
+  // Check if the email matches the regular expression
+  return emailRegex.test(email);
+}
+
+// Example usage
+var userEmail = "example@example.com"; // Replace with the user's email input
+var isEmailValid = isValidEmail(userEmail);
+
+gs.log('Is valid email:', isEmailValid);
+]]></script>
+        <sys_class_name>x_207260_technic_0_useful_scripts</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-11 07:47:38</sys_created_on>
+        <sys_id>d487a4e3072739105295f19d7c1ed011</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Email Regex</sys_name>
+        <sys_package display_value="Technical Repo" source="x_207260_technic_0">6362d051072ff5d05295f19d7c1ed08f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Technical Repo">6362d051072ff5d05295f19d7c1ed08f</sys_scope>
+        <sys_update_name>x_207260_technic_0_useful_scripts_d487a4e3072739105295f19d7c1ed011</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-11 07:47:38</sys_updated_on>
+    </x_207260_technic_0_useful_scripts>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Technical Repo">6362d051072ff5d05295f19d7c1ed08f</application>
+        <file_path/>
+        <instance_id>86c067f4db55695cc9912f17d49619f0</instance_id>
+        <instance_name>dev156891</instance_name>
+        <name>x_207260_technic_0_useful_scripts_d487a4e3072739105295f19d7c1ed011</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="x_207260_technic_0_useful_scripts"&gt;&lt;x_207260_technic_0_useful_scripts action="INSERT_OR_UPDATE"&gt;&lt;name&gt;Email Regex&lt;/name&gt;&lt;number&gt;SCRIPT0001059&lt;/number&gt;&lt;script&gt;&lt;![CDATA[function isValidEmail(email) {
+  // Regular expression for a basic email validation
+  var emailRegex = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
+
+  // Check if the email matches the regular expression
+  return emailRegex.test(email);
+}
+
+// Example usage
+var userEmail = "example@example.com"; // Replace with the user's email input
+var isEmailValid = isValidEmail(userEmail);
+
+gs.log('Is valid email:', isEmailValid);
+]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;x_207260_technic_0_useful_scripts&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-01-11 07:47:38&lt;/sys_created_on&gt;&lt;sys_id&gt;d487a4e3072739105295f19d7c1ed011&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Email Regex&lt;/sys_name&gt;&lt;sys_package display_value="Technical Repo" source="x_207260_technic_0"&gt;6362d051072ff5d05295f19d7c1ed08f&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Technical Repo"&gt;6362d051072ff5d05295f19d7c1ed08f&lt;/sys_scope&gt;&lt;sys_update_name&gt;x_207260_technic_0_useful_scripts_d487a4e3072739105295f19d7c1ed011&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-01-11 07:47:38&lt;/sys_updated_on&gt;&lt;/x_207260_technic_0_useful_scripts&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-885355410</payload_hash>
+        <record_name>Email Regex</record_name>
+        <reverted_from/>
+        <source>2f62d051072ff5d05295f19d7c1ed093</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-11 07:47:38</sys_created_on>
+        <sys_id>1c87a4e3072739105295f19d7c1ed013</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18cf77dae310000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-11 07:47:38</sys_updated_on>
+        <type>Useful Scripts</type>
+        <update_guid>5c87a4e3a3273910b41ca020c25ecc12</update_guid>
+        <update_guid_history>5c87a4e3a3273910b41ca020c25ecc12:-885355410</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Email Regex">34286c27072739105295f19d7c1ed003</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-11 07:50:23</sys_created_on>
+        <sys_db_object display_value="" name="x_207260_technic_0_useful_scripts">x_207260_technic_0_useful_scripts</sys_db_object>
+        <sys_id>31e478230e5a4bc88eec75d5e8db4c40</sys_id>
+        <sys_metadata>d487a4e3072739105295f19d7c1ed011</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Email Regex</sys_name>
+        <sys_package display_value="Technical Repo" source="x_207260_technic_0">6362d051072ff5d05295f19d7c1ed08f</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Technical Repo">6362d051072ff5d05295f19d7c1ed08f</sys_scope>
+        <sys_scope_delete display_value="">9ee46e1ac4cf42e59c28b7b0b296da89</sys_scope_delete>
+        <sys_update_name>x_207260_technic_0_useful_scripts_d487a4e3072739105295f19d7c1ed011</sys_update_name>
+        <sys_update_version display_value="x_207260_technic_0_useful_scripts_d487a4e3072739105295f19d7c1ed011">1c87a4e3072739105295f19d7c1ed013</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-11 07:50:23</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

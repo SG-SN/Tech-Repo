@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="update_synch=true" db_object_id="bc34dc15072ff5d05295f19d7c1ed047" extends="sys_metadata" label="Useful Scripts" max_length="40" name="x_207260_technic_0_useful_scripts" type="collection">
+        <element label="Name" mandatory="true" max_length="100" name="name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
+        <element label="Script" max_length="8000" name="script" type="script"/>
+    </element>
+</database>

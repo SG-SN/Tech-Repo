@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="x_207260_technic_0_useful_scripts">
+    <x_207260_technic_0_useful_scripts action="INSERT_OR_UPDATE">
+        <name>Force logout</name>
+        <number>SCRIPT0001084</number>
+        <script><![CDATA[ GlideSessions.lockOutSessionsInAllNodes(gs.getUserName());
+var param1=event.parm1;
+var usr=new GlideRecord('sys_user');
+usr.get('user_name',param1);
+var usrsid=usr.getUniqueValue();
+var rol=new GlideRecord('sys_user_has_role');
+rol.addQuery('role','282bf1fac6112285017366cb5f867469');
+rol.addQuery('user',usrsid);
+rol.query();
+if(rol.next())
+{
+	gs.info("AMUBHU7: "+"ITIL Role Already present for "+param1);
+}
+else
+{
+	var rol1=new GlideRecord('sys_user_has_role');
+	rol1.initialize();
+	rol1.role='282bf1fac6112285017366cb5f867469';
+	rol1.user=usrsid;
+	rol1.insert();
+	gs.info("AMUBHU7: "+"ITIL Role not present so created for: "+param1);
+//	gs.sleep(2000);
+	GlideSessions.lockOutSessionsInAllNodes(param1);
+	
+}
+
+]]></script>
+        <sys_class_name>x_207260_technic_0_useful_scripts</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-11 07:52:15</sys_created_on>
+        <sys_id>4898ac67072739105295f19d7c1ed0bf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Force logout</sys_name>
+        <sys_package display_value="Technical Repo" source="x_207260_technic_0">6362d051072ff5d05295f19d7c1ed08f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Technical Repo">6362d051072ff5d05295f19d7c1ed08f</sys_scope>
+        <sys_update_name>x_207260_technic_0_useful_scripts_4898ac67072739105295f19d7c1ed0bf</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-11 07:52:15</sys_updated_on>
+    </x_207260_technic_0_useful_scripts>
+</record_update>
