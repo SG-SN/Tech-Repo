@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="x_207260_technic_0_useful_scripts">
+    <x_207260_technic_0_useful_scripts action="INSERT_OR_UPDATE">
+        <name>Generic Function inside Script Include</name>
+        <number>SCRIPT0001092</number>
+        <script><![CDATA[// Write a script include with the name getInstanceData within that there should be a function getData with Input Parameters
+// TableName a string
+// Fields a string (comma seperated field names)
+// sysID a string
+//This function should return a JSON string with the key as fields (that passed as one of the input parameter and value of that field)
+
+
+//Sample Input 1
+
+// sys_user
+// title,email,user_name,manager
+// 6816f79cc0a8016401c5a33be04be441
+//Sample Output 1
+/* 
+ {"title":"System 
+ Administrator","email":"admin@example.com
+ ","user_name":"admin","manager":"611c188a070131105295f19d7c1ed083"}
+*/
+
+//Sample Input 2
+// incident
+// short_description,description,state,category,number
+// 22385d10076331d05295f19d7c1ed00f
+
+//Sample Output 2
+/* 
+{"short_description":"Issue for 48c9eedcc0a8018b3fca079c261987d6","description":"","state":"2","category":"inquiry","number":"INC0010045"}
+*/
+
+
+/*
+//for background script
+function getData(t,f,s)
+{
+var tbl=t;
+var sysid=s;
+var fields=f.split(",");
+var xt=new GlideRecord(tbl);
+xt.get(sysid);
+var outObj={};
+for(var i=0;i<fields.length;i++)
+outObj[fields[i]]=xt[fields[i]]+"";
+return JSON.stringify(outObj);
+}
+
+gs.info(getData('incident','short_description,description,state,category,number','22385d10076331d05295f19d7c1ed00f'))
+gs.info(getData('sys_user','title,email,user_name,manager','6816f79cc0a8016401c5a33be04be441'))
+
+
+
+var api=new getInstanceData();
+gs.info(api.getData('incident','short_description,description,state,category,number','22385d10076331d05295f19d7c1ed00f'))
+gs.info(api.getData('sys_user','title,email,user_name,manager','6816f79cc0a8016401c5a33be04be441'))
+*/]]></script>
+        <sys_class_name>x_207260_technic_0_useful_scripts</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-11 07:52:15</sys_created_on>
+        <sys_id>cc98ac67072739105295f19d7c1ed0ef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Generic Function inside Script Include</sys_name>
+        <sys_package display_value="Technical Repo" source="x_207260_technic_0">6362d051072ff5d05295f19d7c1ed08f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Technical Repo">6362d051072ff5d05295f19d7c1ed08f</sys_scope>
+        <sys_update_name>x_207260_technic_0_useful_scripts_cc98ac67072739105295f19d7c1ed0ef</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-11 07:52:15</sys_updated_on>
+    </x_207260_technic_0_useful_scripts>
+</record_update>

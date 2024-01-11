@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="x_207260_technic_0_useful_scripts">
+    <x_207260_technic_0_useful_scripts action="DELETE">
+        <name>Impersonate User using script</name>
+        <number>SCRIPT0001019</number>
+        <script><![CDATA[gs.getSession().impersonate('611c188a070131105295f19d7c1ed083');]]></script>
+        <sys_class_name>x_207260_technic_0_useful_scripts</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-11 07:45:48</sys_created_on>
+        <sys_id>7d17a4a3072739105295f19d7c1ed0b3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Impersonate User using script</sys_name>
+        <sys_package display_value="Technical Repo" source="x_207260_technic_0">6362d051072ff5d05295f19d7c1ed08f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Technical Repo">6362d051072ff5d05295f19d7c1ed08f</sys_scope>
+        <sys_update_name>x_207260_technic_0_useful_scripts_7d17a4a3072739105295f19d7c1ed0b3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-11 07:45:48</sys_updated_on>
+    </x_207260_technic_0_useful_scripts>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Technical Repo">6362d051072ff5d05295f19d7c1ed08f</application>
+        <file_path/>
+        <instance_id>86c067f4db55695cc9912f17d49619f0</instance_id>
+        <instance_name>dev156891</instance_name>
+        <name>x_207260_technic_0_useful_scripts_7d17a4a3072739105295f19d7c1ed0b3</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="x_207260_technic_0_useful_scripts"&gt;&lt;x_207260_technic_0_useful_scripts action="INSERT_OR_UPDATE"&gt;&lt;name&gt;Impersonate User using script&lt;/name&gt;&lt;number&gt;SCRIPT0001019&lt;/number&gt;&lt;script&gt;&lt;![CDATA[gs.getSession().impersonate('611c188a070131105295f19d7c1ed083');]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;x_207260_technic_0_useful_scripts&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-01-11 07:45:48&lt;/sys_created_on&gt;&lt;sys_id&gt;7d17a4a3072739105295f19d7c1ed0b3&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Impersonate User using script&lt;/sys_name&gt;&lt;sys_package display_value="Technical Repo" source="x_207260_technic_0"&gt;6362d051072ff5d05295f19d7c1ed08f&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Technical Repo"&gt;6362d051072ff5d05295f19d7c1ed08f&lt;/sys_scope&gt;&lt;sys_update_name&gt;x_207260_technic_0_useful_scripts_7d17a4a3072739105295f19d7c1ed0b3&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-01-11 07:45:48&lt;/sys_updated_on&gt;&lt;/x_207260_technic_0_useful_scripts&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-32059985</payload_hash>
+        <record_name>Impersonate User using script</record_name>
+        <reverted_from/>
+        <source>2f62d051072ff5d05295f19d7c1ed093</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-11 07:45:48</sys_created_on>
+        <sys_id>b117a4a3072739105295f19d7c1ed0b6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18cf77c03b80000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-11 07:45:48</sys_updated_on>
+        <type>Useful Scripts</type>
+        <update_guid>f117a4a34c2739109ace3e6438c135b5</update_guid>
+        <update_guid_history>f117a4a34c2739109ace3e6438c135b5:-32059985</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Impersonate User using script">2c282c27072739105295f19d7c1ed036</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-11 07:50:22</sys_created_on>
+        <sys_db_object display_value="" name="x_207260_technic_0_useful_scripts">x_207260_technic_0_useful_scripts</sys_db_object>
+        <sys_id>8adc79d0305849d6a26562a679bc9044</sys_id>
+        <sys_metadata>7d17a4a3072739105295f19d7c1ed0b3</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Impersonate User using script</sys_name>
+        <sys_package display_value="Technical Repo" source="x_207260_technic_0">6362d051072ff5d05295f19d7c1ed08f</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Technical Repo">6362d051072ff5d05295f19d7c1ed08f</sys_scope>
+        <sys_scope_delete display_value="">9ee46e1ac4cf42e59c28b7b0b296da89</sys_scope_delete>
+        <sys_update_name>x_207260_technic_0_useful_scripts_7d17a4a3072739105295f19d7c1ed0b3</sys_update_name>
+        <sys_update_version display_value="x_207260_technic_0_useful_scripts_7d17a4a3072739105295f19d7c1ed0b3">b117a4a3072739105295f19d7c1ed0b6</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-11 07:50:22</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

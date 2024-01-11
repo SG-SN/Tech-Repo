@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="x_207260_technic_0_useful_scripts">
+    <x_207260_technic_0_useful_scripts action="DELETE">
+        <name>Undocumented: GlideTableParentChange</name>
+        <number>SCRIPT0001050</number>
+        <script><![CDATA[/*There are many undocumented ServiceNow APIs that have existed since the beginning. 
+These are a couple that you may come across needing either as a system administrator 
+or developer. */
+
+ 
+
+//The first is the GlideTableParentChange if you need to move a table to be extended 
+//from another table. An example use case is that you may have accidently created it 
+//under the wrong table, like the wrong CI or task table.
+
+ 
+
+var table = ''; //table you want to extend var old_parent = '';
+var new_parent = ''; //the table you want to extend to, like cmdb_ci or task
+var changer = new GlideTableParentChange(table);
+changer.change(old_parent, new_parent);
+ 
+/*
+The second is GlideDBUtil.promoteColumn which is a 
+single one line script that lets you move a column up to
+ the parent level table. This also might be useful in 
+ CMDB management, where you may have created a column
+under a table, but it really need to be moved to the 
+  parent so more CIs can use the field. 
+  */
+
+ 
+
+GlideDBUtil.promoteColumn('table_to_move_from', 'table_to_move_to', 'field_to_move', true);]]></script>
+        <sys_class_name>x_207260_technic_0_useful_scripts</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-11 07:47:37</sys_created_on>
+        <sys_id>d88764e3072739105295f19d7c1ed0eb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Undocumented: GlideTableParentChange</sys_name>
+        <sys_package display_value="Technical Repo" source="x_207260_technic_0">6362d051072ff5d05295f19d7c1ed08f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Technical Repo">6362d051072ff5d05295f19d7c1ed08f</sys_scope>
+        <sys_update_name>x_207260_technic_0_useful_scripts_d88764e3072739105295f19d7c1ed0eb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-11 07:47:37</sys_updated_on>
+    </x_207260_technic_0_useful_scripts>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Technical Repo">6362d051072ff5d05295f19d7c1ed08f</application>
+        <file_path/>
+        <instance_id>86c067f4db55695cc9912f17d49619f0</instance_id>
+        <instance_name>dev156891</instance_name>
+        <name>x_207260_technic_0_useful_scripts_d88764e3072739105295f19d7c1ed0eb</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="x_207260_technic_0_useful_scripts"&gt;&lt;x_207260_technic_0_useful_scripts action="INSERT_OR_UPDATE"&gt;&lt;name&gt;Undocumented: GlideTableParentChange&lt;/name&gt;&lt;number&gt;SCRIPT0001050&lt;/number&gt;&lt;script&gt;&lt;![CDATA[/*There are many undocumented ServiceNow APIs that have existed since the beginning. 
+These are a couple that you may come across needing either as a system administrator 
+or developer. */
+
+ 
+
+//The first is the GlideTableParentChange if you need to move a table to be extended 
+//from another table. An example use case is that you may have accidently created it 
+//under the wrong table, like the wrong CI or task table.
+
+ 
+
+var table = ''; //table you want to extend var old_parent = '';
+var new_parent = ''; //the table you want to extend to, like cmdb_ci or task
+var changer = new GlideTableParentChange(table);
+changer.change(old_parent, new_parent);
+ 
+/*
+The second is GlideDBUtil.promoteColumn which is a 
+single one line script that lets you move a column up to
+ the parent level table. This also might be useful in 
+ CMDB management, where you may have created a column
+under a table, but it really need to be moved to the 
+  parent so more CIs can use the field. 
+  */
+
+ 
+
+GlideDBUtil.promoteColumn('table_to_move_from', 'table_to_move_to', 'field_to_move', true);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;x_207260_technic_0_useful_scripts&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-01-11 07:47:37&lt;/sys_created_on&gt;&lt;sys_id&gt;d88764e3072739105295f19d7c1ed0eb&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Undocumented: GlideTableParentChange&lt;/sys_name&gt;&lt;sys_package display_value="Technical Repo" source="x_207260_technic_0"&gt;6362d051072ff5d05295f19d7c1ed08f&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Technical Repo"&gt;6362d051072ff5d05295f19d7c1ed08f&lt;/sys_scope&gt;&lt;sys_update_name&gt;x_207260_technic_0_useful_scripts_d88764e3072739105295f19d7c1ed0eb&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-01-11 07:47:37&lt;/sys_updated_on&gt;&lt;/x_207260_technic_0_useful_scripts&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-2089056411</payload_hash>
+        <record_name>Undocumented: GlideTableParentChange</record_name>
+        <reverted_from/>
+        <source>2f62d051072ff5d05295f19d7c1ed093</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-11 07:47:37</sys_created_on>
+        <sys_id>108764e3072739105295f19d7c1ed0ee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18cf77dad240000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-11 07:47:37</sys_updated_on>
+        <type>Useful Scripts</type>
+        <update_guid>508764e3f6273910f3a8b735344036ed</update_guid>
+        <update_guid_history>508764e3f6273910f3a8b735344036ed:-2089056411</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Undocumented: GlideTableParentChange">3c286c27072739105295f19d7c1ed00d</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-11 07:50:23</sys_created_on>
+        <sys_db_object display_value="" name="x_207260_technic_0_useful_scripts">x_207260_technic_0_useful_scripts</sys_db_object>
+        <sys_id>44f920aed49a40909906f106e922cd31</sys_id>
+        <sys_metadata>d88764e3072739105295f19d7c1ed0eb</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Undocumented: GlideTableParentChange</sys_name>
+        <sys_package display_value="Technical Repo" source="x_207260_technic_0">6362d051072ff5d05295f19d7c1ed08f</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Technical Repo">6362d051072ff5d05295f19d7c1ed08f</sys_scope>
+        <sys_scope_delete display_value="">9ee46e1ac4cf42e59c28b7b0b296da89</sys_scope_delete>
+        <sys_update_name>x_207260_technic_0_useful_scripts_d88764e3072739105295f19d7c1ed0eb</sys_update_name>
+        <sys_update_version display_value="x_207260_technic_0_useful_scripts_d88764e3072739105295f19d7c1ed0eb">108764e3072739105295f19d7c1ed0ee</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-11 07:50:23</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

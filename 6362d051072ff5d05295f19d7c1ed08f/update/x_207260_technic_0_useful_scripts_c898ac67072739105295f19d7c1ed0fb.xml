@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="x_207260_technic_0_useful_scripts">
+    <x_207260_technic_0_useful_scripts action="INSERT_OR_UPDATE">
+        <name>UI Macro: CopyFieldContent</name>
+        <number>SCRIPT0001096</number>
+        <script><![CDATA[// <?xml version="1.0" encoding="utf-8" ?>
+// <j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+//     <g:messages>
+//         copy_field_to_clipboard
+//     </g:messages>
+
+// 	<!-- Field name without the class name of the record -->
+//     <g2:evaluate var="jvar_fieldName">
+//         var fullFieldName = '${ref}';
+//         var endOfClassName = fullFieldName.indexOf('.');
+//         fullFieldName.substring(endOfClassName + 1);
+//     </g2:evaluate>
+
+// 	<!-- HTML ID of the copy button -->
+//     <g2:evaluate var="jvar_buttonId" jelly="true">
+//         'copy_field_value-' + jelly.jvar_fieldName.replace(/\./g, '_');
+//     </g2:evaluate>
+
+//     <span id="$[jvar_buttonId]" onclick="copyFieldValue('$[jvar_fieldName]')"
+//         title="${gs.getMessage('copy_field_to_clipboard')}" class="btn btn-default icon-copy" />
+	
+//     <script type="text/javascript">
+//         /**
+//          * Copies the value of the field to the clipboard.
+//          */
+//         function copyFieldValue(fieldName) {
+//             try {
+//                 var value = g_form.getValue(fieldName);
+//                 if (value !== '') {
+//                     copyToClipboard(value);
+//                 }
+//             } catch (ex) {
+//                 jslog('CopyFieldContent: error copying field content to clipboard');
+//                 jslog(ex);
+//             }
+//         }
+		
+//         /**
+//          * Hides the button if the value field contains no value; shows it otherwise.
+//          */
+//         function updateVisibility(control, oldValue, newValue) {
+//             try {
+//                 var fullFieldName = control.id;
+//                 var fieldName = getFieldName(fullFieldName);
+//                 var element = $j('#copy_field_value-' + fieldName.replace(/\./g, '_'));
+//                 if (newValue === '') {
+//                     element.hide();
+//                 } else {
+//                     element.show();
+//                 }
+//             } catch (ex) {
+//                 jslog('CopyFieldContent: error updating button visibility');
+//                 jslog(ex);
+//             }
+//         }
+		
+//         /**
+//          * Sets updateVisibility as the handler for the onChange event of the value field.
+//          */
+//         function setOnChangeHandlerOnField() {
+//             var fullFieldName = '${ref}';
+//             var nameForChangeHandler = fullFieldName.replace(/\./g, '_');
+//             var fieldName = getFieldName(fullFieldName);
+
+//             g_event_handlers.push(new GlideEventHandler('onChange_' + nameForChangeHandler, updateVisibility, fieldName));
+//         }
+
+//         function getFieldName(fullFieldName) {
+//             var endOfClassName = fullFieldName.indexOf('.');
+//             return fullFieldName.substring(endOfClassName + 1);
+//         }
+
+//         setOnChangeHandlerOnField();
+
+//         // Since this code is run after the field is rendered, the event handler is not called on form load.
+//         // It needs to be called manually.
+//         var valueElement = document.getElementById('${ref}');
+//         updateVisibility(valueElement, null, valueElement.value);
+//     </script>
+
+// </j:jelly>]]></script>
+        <sys_class_name>x_207260_technic_0_useful_scripts</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-11 07:52:15</sys_created_on>
+        <sys_id>c898ac67072739105295f19d7c1ed0fb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>UI Macro: CopyFieldContent</sys_name>
+        <sys_package display_value="Technical Repo" source="x_207260_technic_0">6362d051072ff5d05295f19d7c1ed08f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Technical Repo">6362d051072ff5d05295f19d7c1ed08f</sys_scope>
+        <sys_update_name>x_207260_technic_0_useful_scripts_c898ac67072739105295f19d7c1ed0fb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-11 07:52:15</sys_updated_on>
+    </x_207260_technic_0_useful_scripts>
+</record_update>

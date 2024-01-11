@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="x_207260_technic_0_useful_scripts">
+    <x_207260_technic_0_useful_scripts action="DELETE">
+        <name>Story</name>
+        <number>SCRIPT0001055</number>
+        <script><![CDATA[// On your ServiceNow Personal Developer Instance, create an OTP generating application with fields 
+// username(string), email address(string), DOB (date), OTP (numeric must accept only 6char numbers).
+// Below are the acceptance criteria:
+// 1. Email field must be validated to see if proper email is entered.
+// 2. 2 UI Action must be present with name 'Generate OTP', 'Validate OTP', 
+// 3. On click of 'Generate OTP' it must generate a random 6-digit number to the email entered above.
+// 4. On click of 'Validate OTP' it must validate the OTP sent on email to check if it matches or not.
+// 5. On OTP match - show a message 'OTP verified successfully'.
+// 6. On OTP mismatch - show a message 'invalid OTP entered, please re-generate OTP'.
+]]></script>
+        <sys_class_name>x_207260_technic_0_useful_scripts</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-11 07:47:38</sys_created_on>
+        <sys_id>d087a4e3072739105295f19d7c1ed006</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Story</sys_name>
+        <sys_package display_value="Technical Repo" source="x_207260_technic_0">6362d051072ff5d05295f19d7c1ed08f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Technical Repo">6362d051072ff5d05295f19d7c1ed08f</sys_scope>
+        <sys_update_name>x_207260_technic_0_useful_scripts_d087a4e3072739105295f19d7c1ed006</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-11 07:47:38</sys_updated_on>
+    </x_207260_technic_0_useful_scripts>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Technical Repo">6362d051072ff5d05295f19d7c1ed08f</application>
+        <file_path/>
+        <instance_id>86c067f4db55695cc9912f17d49619f0</instance_id>
+        <instance_name>dev156891</instance_name>
+        <name>x_207260_technic_0_useful_scripts_d087a4e3072739105295f19d7c1ed006</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="x_207260_technic_0_useful_scripts"&gt;&lt;x_207260_technic_0_useful_scripts action="INSERT_OR_UPDATE"&gt;&lt;name&gt;Story&lt;/name&gt;&lt;number&gt;SCRIPT0001055&lt;/number&gt;&lt;script&gt;&lt;![CDATA[// On your ServiceNow Personal Developer Instance, create an OTP generating application with fields 
+// username(string), email address(string), DOB (date), OTP (numeric must accept only 6char numbers).
+// Below are the acceptance criteria:
+// 1. Email field must be validated to see if proper email is entered.
+// 2. 2 UI Action must be present with name 'Generate OTP', 'Validate OTP', 
+// 3. On click of 'Generate OTP' it must generate a random 6-digit number to the email entered above.
+// 4. On click of 'Validate OTP' it must validate the OTP sent on email to check if it matches or not.
+// 5. On OTP match - show a message 'OTP verified successfully'.
+// 6. On OTP mismatch - show a message 'invalid OTP entered, please re-generate OTP'.
+]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;x_207260_technic_0_useful_scripts&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-01-11 07:47:38&lt;/sys_created_on&gt;&lt;sys_id&gt;d087a4e3072739105295f19d7c1ed006&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Story&lt;/sys_name&gt;&lt;sys_package display_value="Technical Repo" source="x_207260_technic_0"&gt;6362d051072ff5d05295f19d7c1ed08f&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Technical Repo"&gt;6362d051072ff5d05295f19d7c1ed08f&lt;/sys_scope&gt;&lt;sys_update_name&gt;x_207260_technic_0_useful_scripts_d087a4e3072739105295f19d7c1ed006&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-01-11 07:47:38&lt;/sys_updated_on&gt;&lt;/x_207260_technic_0_useful_scripts&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1207200388</payload_hash>
+        <record_name>Story</record_name>
+        <reverted_from/>
+        <source>2f62d051072ff5d05295f19d7c1ed093</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-11 07:47:38</sys_created_on>
+        <sys_id>1887a4e3072739105295f19d7c1ed008</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18cf77dadbe0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-11 07:47:38</sys_updated_on>
+        <type>Useful Scripts</type>
+        <update_guid>5887a4e3af273910d5e30e8c56ab8207</update_guid>
+        <update_guid_history>5887a4e3af273910d5e30e8c56ab8207:-1207200388</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Story">30282c27072739105295f19d7c1ed0fe</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-11 07:50:23</sys_created_on>
+        <sys_db_object display_value="" name="x_207260_technic_0_useful_scripts">x_207260_technic_0_useful_scripts</sys_db_object>
+        <sys_id>0013cd449b824d5a800007b02168fde4</sys_id>
+        <sys_metadata>d087a4e3072739105295f19d7c1ed006</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Story</sys_name>
+        <sys_package display_value="Technical Repo" source="x_207260_technic_0">6362d051072ff5d05295f19d7c1ed08f</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Technical Repo">6362d051072ff5d05295f19d7c1ed08f</sys_scope>
+        <sys_scope_delete display_value="">9ee46e1ac4cf42e59c28b7b0b296da89</sys_scope_delete>
+        <sys_update_name>x_207260_technic_0_useful_scripts_d087a4e3072739105295f19d7c1ed006</sys_update_name>
+        <sys_update_version display_value="x_207260_technic_0_useful_scripts_d087a4e3072739105295f19d7c1ed006">1887a4e3072739105295f19d7c1ed008</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-11 07:50:23</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

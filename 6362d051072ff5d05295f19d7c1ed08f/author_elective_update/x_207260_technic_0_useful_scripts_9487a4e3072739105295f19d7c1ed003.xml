@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="x_207260_technic_0_useful_scripts">
+    <x_207260_technic_0_useful_scripts action="DELETE">
+        <name>Generic Function inside Script Include</name>
+        <number>SCRIPT0001054</number>
+        <script><![CDATA[// Write a script include with the name getInstanceData within that there should be a function getData with Input Parameters
+// TableName a string
+// Fields a string (comma seperated field names)
+// sysID a string
+//This function should return a JSON string with the key as fields (that passed as one of the input parameter and value of that field)
+
+
+//Sample Input 1
+
+// sys_user
+// title,email,user_name,manager
+// 6816f79cc0a8016401c5a33be04be441
+//Sample Output 1
+/* 
+ {"title":"System 
+ Administrator","email":"admin@example.com
+ ","user_name":"admin","manager":"611c188a070131105295f19d7c1ed083"}
+*/
+
+//Sample Input 2
+// incident
+// short_description,description,state,category,number
+// 22385d10076331d05295f19d7c1ed00f
+
+//Sample Output 2
+/* 
+{"short_description":"Issue for 48c9eedcc0a8018b3fca079c261987d6","description":"","state":"2","category":"inquiry","number":"INC0010045"}
+*/
+
+
+/*
+//for background script
+function getData(t,f,s)
+{
+var tbl=t;
+var sysid=s;
+var fields=f.split(",");
+var xt=new GlideRecord(tbl);
+xt.get(sysid);
+var outObj={};
+for(var i=0;i<fields.length;i++)
+outObj[fields[i]]=xt[fields[i]]+"";
+return JSON.stringify(outObj);
+}
+
+gs.info(getData('incident','short_description,description,state,category,number','22385d10076331d05295f19d7c1ed00f'))
+gs.info(getData('sys_user','title,email,user_name,manager','6816f79cc0a8016401c5a33be04be441'))
+
+
+
+var api=new getInstanceData();
+gs.info(api.getData('incident','short_description,description,state,category,number','22385d10076331d05295f19d7c1ed00f'))
+gs.info(api.getData('sys_user','title,email,user_name,manager','6816f79cc0a8016401c5a33be04be441'))
+*/]]></script>
+        <sys_class_name>x_207260_technic_0_useful_scripts</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-11 07:47:38</sys_created_on>
+        <sys_id>9487a4e3072739105295f19d7c1ed003</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Generic Function inside Script Include</sys_name>
+        <sys_package display_value="Technical Repo" source="x_207260_technic_0">6362d051072ff5d05295f19d7c1ed08f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Technical Repo">6362d051072ff5d05295f19d7c1ed08f</sys_scope>
+        <sys_update_name>x_207260_technic_0_useful_scripts_9487a4e3072739105295f19d7c1ed003</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-11 07:47:38</sys_updated_on>
+    </x_207260_technic_0_useful_scripts>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Technical Repo">6362d051072ff5d05295f19d7c1ed08f</application>
+        <file_path/>
+        <instance_id>86c067f4db55695cc9912f17d49619f0</instance_id>
+        <instance_name>dev156891</instance_name>
+        <name>x_207260_technic_0_useful_scripts_9487a4e3072739105295f19d7c1ed003</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="x_207260_technic_0_useful_scripts"&gt;&lt;x_207260_technic_0_useful_scripts action="INSERT_OR_UPDATE"&gt;&lt;name&gt;Generic Function inside Script Include&lt;/name&gt;&lt;number&gt;SCRIPT0001054&lt;/number&gt;&lt;script&gt;&lt;![CDATA[// Write a script include with the name getInstanceData within that there should be a function getData with Input Parameters
+// TableName a string
+// Fields a string (comma seperated field names)
+// sysID a string
+//This function should return a JSON string with the key as fields (that passed as one of the input parameter and value of that field)
+
+
+//Sample Input 1
+
+// sys_user
+// title,email,user_name,manager
+// 6816f79cc0a8016401c5a33be04be441
+//Sample Output 1
+/* 
+ {"title":"System 
+ Administrator","email":"admin@example.com
+ ","user_name":"admin","manager":"611c188a070131105295f19d7c1ed083"}
+*/
+
+//Sample Input 2
+// incident
+// short_description,description,state,category,number
+// 22385d10076331d05295f19d7c1ed00f
+
+//Sample Output 2
+/* 
+{"short_description":"Issue for 48c9eedcc0a8018b3fca079c261987d6","description":"","state":"2","category":"inquiry","number":"INC0010045"}
+*/
+
+
+/*
+//for background script
+function getData(t,f,s)
+{
+var tbl=t;
+var sysid=s;
+var fields=f.split(",");
+var xt=new GlideRecord(tbl);
+xt.get(sysid);
+var outObj={};
+for(var i=0;i&lt;fields.length;i++)
+outObj[fields[i]]=xt[fields[i]]+"";
+return JSON.stringify(outObj);
+}
+
+gs.info(getData('incident','short_description,description,state,category,number','22385d10076331d05295f19d7c1ed00f'))
+gs.info(getData('sys_user','title,email,user_name,manager','6816f79cc0a8016401c5a33be04be441'))
+
+
+
+var api=new getInstanceData();
+gs.info(api.getData('incident','short_description,description,state,category,number','22385d10076331d05295f19d7c1ed00f'))
+gs.info(api.getData('sys_user','title,email,user_name,manager','6816f79cc0a8016401c5a33be04be441'))
+*/]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;x_207260_technic_0_useful_scripts&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-01-11 07:47:38&lt;/sys_created_on&gt;&lt;sys_id&gt;9487a4e3072739105295f19d7c1ed003&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Generic Function inside Script Include&lt;/sys_name&gt;&lt;sys_package display_value="Technical Repo" source="x_207260_technic_0"&gt;6362d051072ff5d05295f19d7c1ed08f&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Technical Repo"&gt;6362d051072ff5d05295f19d7c1ed08f&lt;/sys_scope&gt;&lt;sys_update_name&gt;x_207260_technic_0_useful_scripts_9487a4e3072739105295f19d7c1ed003&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-01-11 07:47:38&lt;/sys_updated_on&gt;&lt;/x_207260_technic_0_useful_scripts&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1083327876</payload_hash>
+        <record_name>Generic Function inside Script Include</record_name>
+        <reverted_from/>
+        <source>2f62d051072ff5d05295f19d7c1ed093</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-11 07:47:38</sys_created_on>
+        <sys_id>d887a4e3072739105295f19d7c1ed005</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18cf77dada40000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-11 07:47:38</sys_updated_on>
+        <type>Useful Scripts</type>
+        <update_guid>1c87a4e3fb273910092a8ccb63d89d04</update_guid>
+        <update_guid_history>1c87a4e3fb273910092a8ccb63d89d04:1083327876</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Generic Function inside Script Include">e8282c27072739105295f19d7c1ed062</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-11 07:50:22</sys_created_on>
+        <sys_db_object display_value="" name="x_207260_technic_0_useful_scripts">x_207260_technic_0_useful_scripts</sys_db_object>
+        <sys_id>19cee1e9b80e4236821b4340bd1c0d84</sys_id>
+        <sys_metadata>9487a4e3072739105295f19d7c1ed003</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Generic Function inside Script Include</sys_name>
+        <sys_package display_value="Technical Repo" source="x_207260_technic_0">6362d051072ff5d05295f19d7c1ed08f</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Technical Repo">6362d051072ff5d05295f19d7c1ed08f</sys_scope>
+        <sys_scope_delete display_value="">9ee46e1ac4cf42e59c28b7b0b296da89</sys_scope_delete>
+        <sys_update_name>x_207260_technic_0_useful_scripts_9487a4e3072739105295f19d7c1ed003</sys_update_name>
+        <sys_update_version display_value="x_207260_technic_0_useful_scripts_9487a4e3072739105295f19d7c1ed003">d887a4e3072739105295f19d7c1ed005</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-11 07:50:22</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

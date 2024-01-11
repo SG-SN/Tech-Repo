@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="x_207260_technic_0_useful_scripts">
+    <x_207260_technic_0_useful_scripts action="INSERT_OR_UPDATE">
+        <name>Copy a specific attachment</name>
+        <number>SCRIPT0001083</number>
+        <script><![CDATA[function copyASpecificAttachment(sourceTable, sourceRecSysID, targetTable, targetRecSysID, fileName) {
+	var sourceAttSysID;
+	var newAttRecord;
+	var attDataRecord;
+	var newDocRecord;
+	var attRecord = new GlideRecord('sys_attachment');
+	attRecord.addQuery('table_name', sourceTable);
+	attRecord.addQuery('table_sys_id', sourceRecSysID);
+	attRecord.addQuery('file_name', fileName);
+	attRecord.query();
+	while (attRecord.next()) {
+		sourceAttSysID = attRecord.getValue('sys_id');
+		newAttRecord = copyARecord(attRecord);
+		newAttRecord.setValue('table_name', targetTable);
+		newAttRecord.setValue('table_sys_id', targetRecSysID);
+		newAttRecord.update();
+		attDataRecord = new GlideRecord('sys_attachment_doc');
+		attDataRecord.addQuery('sys_attachment', sourceAttSysID);
+		attDataRecord.query();
+		while (attDataRecord.next()) {
+			newDocRecord = copyARecord(attDataRecord);
+			newDocRecord.setValue('sys_attachment', newAttRecord.getValue('sys_id'));
+			newDocRecord.update();
+		}
+	}
+}
+]]></script>
+        <sys_class_name>x_207260_technic_0_useful_scripts</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-11 07:52:15</sys_created_on>
+        <sys_id>c098ac67072739105295f19d7c1ed0b0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Copy a specific attachment</sys_name>
+        <sys_package display_value="Technical Repo" source="x_207260_technic_0">6362d051072ff5d05295f19d7c1ed08f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Technical Repo">6362d051072ff5d05295f19d7c1ed08f</sys_scope>
+        <sys_update_name>x_207260_technic_0_useful_scripts_c098ac67072739105295f19d7c1ed0b0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-11 07:52:15</sys_updated_on>
+    </x_207260_technic_0_useful_scripts>
+</record_update>

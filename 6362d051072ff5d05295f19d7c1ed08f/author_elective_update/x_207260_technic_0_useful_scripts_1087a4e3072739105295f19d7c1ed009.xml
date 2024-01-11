@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="x_207260_technic_0_useful_scripts">
+    <x_207260_technic_0_useful_scripts action="DELETE">
+        <name>For incident table</name>
+        <number>SCRIPT0001056</number>
+        <script><![CDATA[var choices = GlideChoiceList.getChoiceList("incident", "close_code");
+
+for (var i = 0; i < choices.getSize(); i++){
+		var choiceValue = choices.getChoice(i).getValue();
+		var choiceLabel = choices.getChoice(i).getLabel();
+		gs.info("Choice Label -> " + choiceLabel + " Choice Value ->" + choiceValue);
+	
+}]]></script>
+        <sys_class_name>x_207260_technic_0_useful_scripts</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-11 07:47:38</sys_created_on>
+        <sys_id>1087a4e3072739105295f19d7c1ed009</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>For incident table</sys_name>
+        <sys_package display_value="Technical Repo" source="x_207260_technic_0">6362d051072ff5d05295f19d7c1ed08f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Technical Repo">6362d051072ff5d05295f19d7c1ed08f</sys_scope>
+        <sys_update_name>x_207260_technic_0_useful_scripts_1087a4e3072739105295f19d7c1ed009</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-11 07:47:38</sys_updated_on>
+    </x_207260_technic_0_useful_scripts>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Technical Repo">6362d051072ff5d05295f19d7c1ed08f</application>
+        <file_path/>
+        <instance_id>86c067f4db55695cc9912f17d49619f0</instance_id>
+        <instance_name>dev156891</instance_name>
+        <name>x_207260_technic_0_useful_scripts_1087a4e3072739105295f19d7c1ed009</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="x_207260_technic_0_useful_scripts"&gt;&lt;x_207260_technic_0_useful_scripts action="INSERT_OR_UPDATE"&gt;&lt;name&gt;For incident table&lt;/name&gt;&lt;number&gt;SCRIPT0001056&lt;/number&gt;&lt;script&gt;&lt;![CDATA[var choices = GlideChoiceList.getChoiceList("incident", "close_code");
+
+for (var i = 0; i &lt; choices.getSize(); i++){
+		var choiceValue = choices.getChoice(i).getValue();
+		var choiceLabel = choices.getChoice(i).getLabel();
+		gs.info("Choice Label -&gt; " + choiceLabel + " Choice Value -&gt;" + choiceValue);
+	
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;x_207260_technic_0_useful_scripts&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-01-11 07:47:38&lt;/sys_created_on&gt;&lt;sys_id&gt;1087a4e3072739105295f19d7c1ed009&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;For incident table&lt;/sys_name&gt;&lt;sys_package display_value="Technical Repo" source="x_207260_technic_0"&gt;6362d051072ff5d05295f19d7c1ed08f&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Technical Repo"&gt;6362d051072ff5d05295f19d7c1ed08f&lt;/sys_scope&gt;&lt;sys_update_name&gt;x_207260_technic_0_useful_scripts_1087a4e3072739105295f19d7c1ed009&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-01-11 07:47:38&lt;/sys_updated_on&gt;&lt;/x_207260_technic_0_useful_scripts&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>2099340766</payload_hash>
+        <record_name>For incident table</record_name>
+        <reverted_from/>
+        <source>2f62d051072ff5d05295f19d7c1ed093</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-11 07:47:38</sys_created_on>
+        <sys_id>5487a4e3072739105295f19d7c1ed00b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18cf77dadd90000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-11 07:47:38</sys_updated_on>
+        <type>Useful Scripts</type>
+        <update_guid>9487a4e34d273910e223fb278d10e40a</update_guid>
+        <update_guid_history>9487a4e34d273910e223fb278d10e40a:2099340766</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="For incident table">0028e827072739105295f19d7c1ed050</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-11 07:50:20</sys_created_on>
+        <sys_db_object display_value="" name="x_207260_technic_0_useful_scripts">x_207260_technic_0_useful_scripts</sys_db_object>
+        <sys_id>079ec9ab7aa9434a8476070493e4c904</sys_id>
+        <sys_metadata>1087a4e3072739105295f19d7c1ed009</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>For incident table</sys_name>
+        <sys_package display_value="Technical Repo" source="x_207260_technic_0">6362d051072ff5d05295f19d7c1ed08f</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Technical Repo">6362d051072ff5d05295f19d7c1ed08f</sys_scope>
+        <sys_scope_delete display_value="">9ee46e1ac4cf42e59c28b7b0b296da89</sys_scope_delete>
+        <sys_update_name>x_207260_technic_0_useful_scripts_1087a4e3072739105295f19d7c1ed009</sys_update_name>
+        <sys_update_version display_value="x_207260_technic_0_useful_scripts_1087a4e3072739105295f19d7c1ed009">5487a4e3072739105295f19d7c1ed00b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-11 07:50:20</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

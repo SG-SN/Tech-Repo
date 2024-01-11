@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="x_207260_technic_0_useful_scripts">
+    <x_207260_technic_0_useful_scripts action="DELETE">
+        <name>VGM Request Flow</name>
+        <number>SCRIPT0001043</number>
+        <script><![CDATA[// VGM Request Flow //https://dev156891.service-now.com/sp?id=sc_cat_item&sys_id=188504ad0707b1505295f19d7c1ed0ae
+//Auto-populate the User ID in the catalog variable user id of requested for user
+
+//After having completed above create a new flow for the VGM Request Flow catalog
+// 1. Approval for manager if manager s empty it should go to admin.
+//Once Approved
+//2. Wait:
+// System should wait until "Start Date Time"
+//When wait is over
+//3. System should create as many tasks as mentioned in "Number of Tasks"
+//4. Once all tasks are closed close the RITM]]></script>
+        <sys_class_name>x_207260_technic_0_useful_scripts</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-11 07:47:37</sys_created_on>
+        <sys_id>588764e3072739105295f19d7c1ed0cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>VGM Request Flow</sys_name>
+        <sys_package display_value="Technical Repo" source="x_207260_technic_0">6362d051072ff5d05295f19d7c1ed08f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Technical Repo">6362d051072ff5d05295f19d7c1ed08f</sys_scope>
+        <sys_update_name>x_207260_technic_0_useful_scripts_588764e3072739105295f19d7c1ed0cb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-11 07:47:37</sys_updated_on>
+    </x_207260_technic_0_useful_scripts>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Technical Repo">6362d051072ff5d05295f19d7c1ed08f</application>
+        <file_path/>
+        <instance_id>86c067f4db55695cc9912f17d49619f0</instance_id>
+        <instance_name>dev156891</instance_name>
+        <name>x_207260_technic_0_useful_scripts_588764e3072739105295f19d7c1ed0cb</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="x_207260_technic_0_useful_scripts"&gt;&lt;x_207260_technic_0_useful_scripts action="INSERT_OR_UPDATE"&gt;&lt;name&gt;VGM Request Flow&lt;/name&gt;&lt;number&gt;SCRIPT0001043&lt;/number&gt;&lt;script&gt;&lt;![CDATA[// VGM Request Flow //https://dev156891.service-now.com/sp?id=sc_cat_item&amp;sys_id=188504ad0707b1505295f19d7c1ed0ae
+//Auto-populate the User ID in the catalog variable user id of requested for user
+
+//After having completed above create a new flow for the VGM Request Flow catalog
+// 1. Approval for manager if manager s empty it should go to admin.
+//Once Approved
+//2. Wait:
+// System should wait until "Start Date Time"
+//When wait is over
+//3. System should create as many tasks as mentioned in "Number of Tasks"
+//4. Once all tasks are closed close the RITM]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;x_207260_technic_0_useful_scripts&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-01-11 07:47:37&lt;/sys_created_on&gt;&lt;sys_id&gt;588764e3072739105295f19d7c1ed0cb&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;VGM Request Flow&lt;/sys_name&gt;&lt;sys_package display_value="Technical Repo" source="x_207260_technic_0"&gt;6362d051072ff5d05295f19d7c1ed08f&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Technical Repo"&gt;6362d051072ff5d05295f19d7c1ed08f&lt;/sys_scope&gt;&lt;sys_update_name&gt;x_207260_technic_0_useful_scripts_588764e3072739105295f19d7c1ed0cb&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-01-11 07:47:37&lt;/sys_updated_on&gt;&lt;/x_207260_technic_0_useful_scripts&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-775790266</payload_hash>
+        <record_name>VGM Request Flow</record_name>
+        <reverted_from/>
+        <source>2f62d051072ff5d05295f19d7c1ed093</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-11 07:47:37</sys_created_on>
+        <sys_id>9c8764e3072739105295f19d7c1ed0cd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18cf77dac020000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-11 07:47:37</sys_updated_on>
+        <type>Useful Scripts</type>
+        <update_guid>dc8764e3ea2739104d80ce00efa973cc</update_guid>
+        <update_guid_history>dc8764e3ea2739104d80ce00efa973cc:-775790266</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="VGM Request Flow">54282c27072739105295f19d7c1ed000</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-11 07:50:21</sys_created_on>
+        <sys_db_object display_value="" name="x_207260_technic_0_useful_scripts">x_207260_technic_0_useful_scripts</sys_db_object>
+        <sys_id>0aa69214b9e545d28f418dd16ba400c4</sys_id>
+        <sys_metadata>588764e3072739105295f19d7c1ed0cb</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>VGM Request Flow</sys_name>
+        <sys_package display_value="Technical Repo" source="x_207260_technic_0">6362d051072ff5d05295f19d7c1ed08f</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Technical Repo">6362d051072ff5d05295f19d7c1ed08f</sys_scope>
+        <sys_scope_delete display_value="">9ee46e1ac4cf42e59c28b7b0b296da89</sys_scope_delete>
+        <sys_update_name>x_207260_technic_0_useful_scripts_588764e3072739105295f19d7c1ed0cb</sys_update_name>
+        <sys_update_version display_value="x_207260_technic_0_useful_scripts_588764e3072739105295f19d7c1ed0cb">9c8764e3072739105295f19d7c1ed0cd</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-11 07:50:21</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
