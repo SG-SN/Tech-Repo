@@ -92,7 +92,7 @@
         <update_guid_history>3c58246739273910d376d49b74be01fe:345489330</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Generic Function inside Script Include : GPT">7e886c67072739105295f19d7c1ed0aa</sys_audit_delete>
+        <sys_audit_delete display_value="">7e886c67072739105295f19d7c1ed0aa</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-01-11 07:52:09</sys_created_on>

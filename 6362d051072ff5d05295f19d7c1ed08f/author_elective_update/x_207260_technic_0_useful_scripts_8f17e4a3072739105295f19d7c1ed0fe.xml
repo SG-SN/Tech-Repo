@@ -62,7 +62,7 @@
         <update_guid_history>071728a333273910072df4881f68bd00:104933769</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="VGM Request Flow">28282c27072739105295f19d7c1ed046</sys_audit_delete>
+        <sys_audit_delete display_value="">28282c27072739105295f19d7c1ed046</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-01-11 07:50:22</sys_created_on>

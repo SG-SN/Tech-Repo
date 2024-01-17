@@ -44,7 +44,7 @@
         <update_guid_history>131728a3a027391055d77a93126d1526:1834003163</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Script for eventQueueScheduled">e4282c27072739105295f19d7c1ed072</sys_audit_delete>
+        <sys_audit_delete display_value="">e4282c27072739105295f19d7c1ed072</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-01-11 07:50:22</sys_created_on>

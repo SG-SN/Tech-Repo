@@ -98,7 +98,7 @@ GlideDBUtil.promoteColumn('table_to_move_from', 'table_to_move_to', 'field_to_mo
         <update_guid_history>7117a4a3f02739105ce2a1af87e9f195:-1477033953</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Undocumented: GlideTableParentChange">45286c27072739105295f19d7c1ed04d</sys_audit_delete>
+        <sys_audit_delete display_value="">45286c27072739105295f19d7c1ed04d</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-01-11 07:50:24</sys_created_on>

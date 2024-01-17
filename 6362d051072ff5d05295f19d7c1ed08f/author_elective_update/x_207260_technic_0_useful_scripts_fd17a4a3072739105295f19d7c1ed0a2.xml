@@ -84,7 +84,7 @@ gs.info(JSON.stringify(randomOTP,null,3))
         <update_guid_history>7517a4a3da273910555a21a725d72ba4:467261792</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Random number generation of length n">49286c27072739105295f19d7c1ed052</sys_audit_delete>
+        <sys_audit_delete display_value="">49286c27072739105295f19d7c1ed052</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-01-11 07:50:24</sys_created_on>

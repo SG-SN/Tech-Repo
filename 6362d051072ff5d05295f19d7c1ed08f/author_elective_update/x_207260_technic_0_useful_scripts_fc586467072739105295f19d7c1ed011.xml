@@ -56,7 +56,7 @@ for (var i = 0; i &lt; choices.getSize(); i++){
         <update_guid_history>745864677b2739105eed72980f47b313:62396187</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="For incident table">7e886c67072739105295f19d7c1ed0bf</sys_audit_delete>
+        <sys_audit_delete display_value="">7e886c67072739105295f19d7c1ed0bf</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-01-11 07:52:10</sys_created_on>

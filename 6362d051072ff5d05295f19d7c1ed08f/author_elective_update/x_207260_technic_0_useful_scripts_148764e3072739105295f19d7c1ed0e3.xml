@@ -66,7 +66,7 @@ addLoadEvent(function()
         <update_guid_history>988764e383273910ae9e8a207383c0e4:-2122110806</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="UI Script for the redirection">0428e827072739105295f19d7c1ed055</sys_audit_delete>
+        <sys_audit_delete display_value="">0428e827072739105295f19d7c1ed055</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-01-11 07:50:20</sys_created_on>

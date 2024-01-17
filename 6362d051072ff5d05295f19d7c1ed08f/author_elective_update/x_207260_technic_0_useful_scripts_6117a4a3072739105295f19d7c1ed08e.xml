@@ -118,7 +118,7 @@ var vs = new GlobalServiceCatalogUtil().getVariablesForTask(current, true);
         <update_guid_history>f517a4a37f27391010308e2fa470608f:384788517</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Variables of Catalog">10282c27072739105295f19d7c1ed027</sys_audit_delete>
+        <sys_audit_delete display_value="">10282c27072739105295f19d7c1ed027</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-01-11 07:50:22</sys_created_on>

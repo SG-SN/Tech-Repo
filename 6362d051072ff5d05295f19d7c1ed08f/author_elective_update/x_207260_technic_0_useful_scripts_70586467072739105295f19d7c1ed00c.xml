@@ -148,7 +148,7 @@ gs.info(api.getData('sys_user','title,email,user_name,manager','6816f79cc0a80164
         <update_guid_history>f4586467952739101176ec1ec74d300d:1041788609</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Generic Function inside Script Include">ee886c67072739105295f19d7c1ed067</sys_audit_delete>
+        <sys_audit_delete display_value="">ee886c67072739105295f19d7c1ed067</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-01-11 07:52:09</sys_created_on>

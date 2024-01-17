@@ -54,7 +54,7 @@ gs.print(tt1.getTZOffset())]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;x_207260_t
         <update_guid_history>ac58a4274c273910cdcb85c42be6ab56:1196223279</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Timezone offset for DST">a6886c67072739105295f19d7c1ed089</sys_audit_delete>
+        <sys_audit_delete display_value="">a6886c67072739105295f19d7c1ed089</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-01-11 07:52:09</sys_created_on>

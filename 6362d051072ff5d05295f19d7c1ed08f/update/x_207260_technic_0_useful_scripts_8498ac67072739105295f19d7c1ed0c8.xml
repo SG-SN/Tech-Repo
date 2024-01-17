@@ -27,18 +27,43 @@
 
 // var api=new getInstanceData();
 // gs.info(api.getData('incident','short_description,description,state,category,number','22385d10076331d05295f19d7c1ed00f'))
-// gs.info(api.getData('sys_user','title,email,user_name,manager','6816f79cc0a8016401c5a33be04be441'))]]></script>
+// gs.info(api.getData('sys_user','title,email,user_name,manager','6816f79cc0a8016401c5a33be04be441'))
+
+
+
+
+//Script Include
+
+// var getInstanceData = Class.create();
+// getInstanceData.prototype = {
+//     initialize: function() {
+//     },
+//     getData: function(tableName, ID, fields){
+// 		var f = fields.split(',');
+//         var outObj = {};
+// 		var grUser = new GlideRecord(tableName);
+// 		if(grUser.get(ID)){
+// 			for(var i = 0; i<f.length;i++)
+// 			{
+//             outObj[fields[i]] = grUser[fields[i]]+"";
+// 			}
+// 			return JSON.stringify(outObj);
+// 		}
+
+// 	},
+//     type: 'getInstanceData'
+// };]]></script>
         <sys_class_name>x_207260_technic_0_useful_scripts</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-01-11 07:52:15</sys_created_on>
         <sys_id>8498ac67072739105295f19d7c1ed0c8</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Generic Function inside Script Include : GPT</sys_name>
         <sys_package display_value="Technical Repo" source="x_207260_technic_0">6362d051072ff5d05295f19d7c1ed08f</sys_package>
         <sys_policy/>
         <sys_scope display_value="Technical Repo">6362d051072ff5d05295f19d7c1ed08f</sys_scope>
         <sys_update_name>x_207260_technic_0_useful_scripts_8498ac67072739105295f19d7c1ed0c8</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-11 07:52:15</sys_updated_on>
+        <sys_updated_on>2024-01-17 03:52:38</sys_updated_on>
     </x_207260_technic_0_useful_scripts>
 </record_update>

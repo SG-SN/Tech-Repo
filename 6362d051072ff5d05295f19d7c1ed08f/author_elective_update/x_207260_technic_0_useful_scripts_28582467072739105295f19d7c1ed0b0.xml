@@ -76,7 +76,7 @@
         <update_guid_history>ac582467d4273910ff5b698b706d78b1:1224237752</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="copyARecord: Call this function to make a copy of a specific record.">1688a027072739105295f19d7c1ed0f1</sys_audit_delete>
+        <sys_audit_delete display_value="">1688a027072739105295f19d7c1ed0f1</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-01-11 07:52:08</sys_created_on>
