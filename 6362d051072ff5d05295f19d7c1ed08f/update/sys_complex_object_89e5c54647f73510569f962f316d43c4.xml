@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FDc5e5c54691f7351085f666841a7eccc4</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>6362d051072ff5d05295f19d7c1ed08f</scope_name>
+        <serialized_content>{"FlowDesigner:FDc5e5c54691f7351085f666841a7eccc4":{"$COCollectionField":["String"],"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FDc5e5c54691f7351085f666841a7eccc4.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Fields\",\"mandatory\":\"true\",\"child_name\":\"Fields_child\",\"uiUniqueId\":\"b198b54c-7a92-4ad8-94d2-a80fbf60bf39\",\"uiTypeLabel\":\"Array.String\",\"co_type_name\":\"FDc5e5c54691f7351085f666841a7eccc4\",\"child_label\":\"Fields_child\",\"child_type_label\":\"String\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"array.string\",\"child_defaultValue\":\"\",\"child_type\":\"string\",\"order\":\"2\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"ff79ed8d-341e-453a-8765-01c0fce90485\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-19 04:25:11</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>89e5c54647f73510569f962f316d43c4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FDc5e5c54691f7351085f666841a7eccc4</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Technical Repo" source="x_207260_technic_0">6362d051072ff5d05295f19d7c1ed08f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Technical Repo">6362d051072ff5d05295f19d7c1ed08f</sys_scope>
+        <sys_update_name>sys_complex_object_89e5c54647f73510569f962f316d43c4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-19 04:25:11</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
+</record_update>

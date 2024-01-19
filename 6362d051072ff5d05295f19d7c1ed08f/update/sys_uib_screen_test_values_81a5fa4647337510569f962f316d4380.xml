@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_uib_screen_test_values">
+    <sys_uib_screen_test_values action="INSERT_OR_UPDATE">
+        <macroponent_config>{
+    "029f04e053610110ac9bddeeff7b1294": {
+        "activityLogs": "",
+        "detailsContext": "",
+        "fields": "",
+        "forcedViewName": "",
+        "inputExtraParams": "",
+        "inputQuery": "",
+        "inputSysId": "57af7aec73d423002728660c4cf6a71c",
+        "inputTable": "task",
+        "screen": "",
+        "selectedTabIndex": "",
+        "shouldDisplayFormErrorsAsPageAlerts": false,
+        "userPrefs": ""
+    }
+}</macroponent_config>
+        <screen display_value="Default">81a5fa4647337510569f962f316d437d</screen>
+        <sys_class_name>sys_uib_screen_test_values</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-19 12:33:27</sys_created_on>
+        <sys_id>81a5fa4647337510569f962f316d4380</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Technical Repo" source="x_207260_technic_0">6362d051072ff5d05295f19d7c1ed08f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Technical Repo">6362d051072ff5d05295f19d7c1ed08f</sys_scope>
+        <sys_update_name>sys_uib_screen_test_values_81a5fa4647337510569f962f316d4380</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-19 14:42:51</sys_updated_on>
+    </sys_uib_screen_test_values>
+</record_update>
