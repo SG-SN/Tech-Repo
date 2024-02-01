@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="x_207260_technic_0_useful_scripts">
+    <x_207260_technic_0_useful_scripts action="INSERT_OR_UPDATE">
+        <name>Attachment</name>
+        <number>SCRIPT0001001</number>
+        <script><![CDATA[var attach = new GlideRecord('sys_attachment');
+                    attach.addQuery('table_sys_id', gr.sys_id);
+                    attach.addQuery('table_name', 'incident');
+                    attach.addQuery('file_name', INCfilename1);
+                    attach.query();
+                    if (!attach.next()) {
+                        var StringUtil1 = GlideStringUtil;
+                        var value1 = StringUtil1.base64DecodeAsBytes(INCattachment1);
+                        var attachment1 = new Attachment();
+                        attachment1.write('incident', gr.sys_id, INCfilename1, INCcontenttype1, value1);
+                    }]]></script>
+        <sys_class_name>x_207260_technic_0_useful_scripts</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-25 18:21:12</sys_created_on>
+        <sys_id>63aefe8047400210569f962f316d4335</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Attachment</sys_name>
+        <sys_package display_value="Technical Repo" source="x_207260_technic_0">6362d051072ff5d05295f19d7c1ed08f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Technical Repo">6362d051072ff5d05295f19d7c1ed08f</sys_scope>
+        <sys_update_name>x_207260_technic_0_useful_scripts_63aefe8047400210569f962f316d4335</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-25 18:21:12</sys_updated_on>
+    </x_207260_technic_0_useful_scripts>
+</record_update>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_207260_technic_0.getInstanceData</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>getInstanceData</name>
+        <script><![CDATA[var getInstanceData = Class.create();
+getInstanceData.prototype = {
+    initialize: function() {
+    },
+
+    type: 'getInstanceData'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>cts.interview</sys_created_by>
+        <sys_created_on>2024-01-29 04:37:09</sys_created_on>
+        <sys_id>1568ac9d47400610569f962f316d4322</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>getInstanceData</sys_name>
+        <sys_package display_value="Technical Repo" source="x_207260_technic_0">6362d051072ff5d05295f19d7c1ed08f</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Technical Repo">6362d051072ff5d05295f19d7c1ed08f</sys_scope>
+        <sys_update_name>sys_script_include_1568ac9d47400610569f962f316d4322</sys_update_name>
+        <sys_updated_by>cts.interview</sys_updated_by>
+        <sys_updated_on>2024-01-29 04:39:06</sys_updated_on>
+    </sys_script_include>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Technical Repo">6362d051072ff5d05295f19d7c1ed08f</application>
+        <file_path/>
+        <instance_id>67de33aa1b26bd50c84543f4bd4bcb9e</instance_id>
+        <instance_name>dev218032</instance_name>
+        <name>sys_script_include_1568ac9d47400610569f962f316d4322</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;x_207260_technic_0.getInstanceData&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;description/&gt;&lt;name&gt;getInstanceData&lt;/name&gt;&lt;script&gt;&lt;![CDATA[var getInstanceData = Class.create();
+getInstanceData.prototype = {
+    initialize: function() {
+    },
+
+    type: 'getInstanceData'
+};]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;cts.interview&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-01-29 04:37:09&lt;/sys_created_on&gt;&lt;sys_id&gt;1568ac9d47400610569f962f316d4322&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;getInstanceData&lt;/sys_name&gt;&lt;sys_package display_value="Technical Repo" source="x_207260_technic_0"&gt;6362d051072ff5d05295f19d7c1ed08f&lt;/sys_package&gt;&lt;sys_policy&gt;read&lt;/sys_policy&gt;&lt;sys_scope display_value="Technical Repo"&gt;6362d051072ff5d05295f19d7c1ed08f&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_1568ac9d47400610569f962f316d4322&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;cts.interview&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-01-29 04:39:06&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>961358728</payload_hash>
+        <record_name>getInstanceData</record_name>
+        <reverted_from/>
+        <source>12f72cd947400610569f962f316d43f3</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>cts.interview</sys_created_by>
+        <sys_created_on>2024-01-29 04:39:06</sys_created_on>
+        <sys_id>1ef8a09d47400610569f962f316d435c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18d53838c6a0000001</sys_recorded_at>
+        <sys_updated_by>cts.interview</sys_updated_by>
+        <sys_updated_on>2024-01-29 04:39:06</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>9ef8a09dea400610b27b4b5624ea4c5b</update_guid>
+        <update_guid_history>9ef8a09dea400610b27b4b5624ea4c5b:961358728,8e88e89dcb400610297d2e5dcc2f8994:-1323426262</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-29 05:08:33</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>2fbe18375c7a4a6c937492fa6a292310</sys_id>
+        <sys_metadata>1568ac9d47400610569f962f316d4322</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>getInstanceData</sys_name>
+        <sys_package display_value="Technical Repo" source="x_207260_technic_0">6362d051072ff5d05295f19d7c1ed08f</sys_package>
+        <sys_parent/>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Technical Repo">6362d051072ff5d05295f19d7c1ed08f</sys_scope>
+        <sys_scope_delete display_value="">9ee46e1ac4cf42e59c28b7b0b296da89</sys_scope_delete>
+        <sys_update_name>sys_script_include_1568ac9d47400610569f962f316d4322</sys_update_name>
+        <sys_update_version display_value="sys_script_include_1568ac9d47400610569f962f316d4322">1ef8a09d47400610569f962f316d435c</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-29 05:08:33</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

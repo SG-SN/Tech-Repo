@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="x_207260_technic_0_useful_scripts">
+    <x_207260_technic_0_useful_scripts action="INSERT_OR_UPDATE">
+        <name>Elevate role using script</name>
+        <number>SCRIPT0001101</number>
+        <script><![CDATA[GlideSecurityManager.get().enableElevatedRole('security_admin');]]></script>
+        <sys_class_name>x_207260_technic_0_useful_scripts</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-29 06:46:32</sys_created_on>
+        <sys_id>d2e5495d47040610569f962f316d43c1</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Elevate role using script</sys_name>
+        <sys_package display_value="Technical Repo" source="x_207260_technic_0">6362d051072ff5d05295f19d7c1ed08f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Technical Repo">6362d051072ff5d05295f19d7c1ed08f</sys_scope>
+        <sys_update_name>x_207260_technic_0_useful_scripts_d2e5495d47040610569f962f316d43c1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-29 06:47:25</sys_updated_on>
+    </x_207260_technic_0_useful_scripts>
+</record_update>

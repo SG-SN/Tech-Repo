@@ -2,12 +2,12 @@
     <x_207260_technic_0_useful_scripts action="INSERT_OR_UPDATE">
         <name>VGM Request Flow</name>
         <number>SCRIPT0001081</number>
-        <script><![CDATA[// VGM Request Flow //https://dev156891.service-now.com/sp?id=sc_cat_item&sys_id=895a0d0e47f73510569f962f316d43be
+        <script><![CDATA[// VGM Request Flow //https://dev218032.service-now.com/sp?id=sc_cat_item&sys_id=895a0d0e47f73510569f962f316d43be
 
 //Create an Update set under application Technical Repo
 //Auto-populate the User ID in the catalog variable user id of requested for user
 //After having completed above create a new flow for the VGM Request Flow catalog
-// 1. Approval for manager, if manager is empty it should go to admin.
+// 1. Approval for manager of requested for, if manager is empty it should go to admin.
 //Once Approved
 //2. Wait:
 // System should wait until "Start Date Time"
@@ -18,13 +18,13 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-01-11 07:52:15</sys_created_on>
         <sys_id>4498ac67072739105295f19d7c1ed0aa</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>VGM Request Flow</sys_name>
         <sys_package display_value="Technical Repo" source="x_207260_technic_0">6362d051072ff5d05295f19d7c1ed08f</sys_package>
         <sys_policy/>
         <sys_scope display_value="Technical Repo">6362d051072ff5d05295f19d7c1ed08f</sys_scope>
         <sys_update_name>x_207260_technic_0_useful_scripts_4498ac67072739105295f19d7c1ed0aa</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-19 04:45:09</sys_updated_on>
+        <sys_updated_on>2024-01-29 04:59:00</sys_updated_on>
     </x_207260_technic_0_useful_scripts>
 </record_update>

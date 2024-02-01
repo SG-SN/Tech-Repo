@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="ignore_baseline=true" db_object_id="5240671947c04610569f962f316d43dd" extends="cmdb_qb_result_base" label="Sorgu Oluşturucu Sonuçları" max_length="40" name="x_207260_technic_0_u_cmdb_qb_result_64cd54ddd9dfb5087b0c736e49a866c0824b50dd" type="collection"/>
+</database>
