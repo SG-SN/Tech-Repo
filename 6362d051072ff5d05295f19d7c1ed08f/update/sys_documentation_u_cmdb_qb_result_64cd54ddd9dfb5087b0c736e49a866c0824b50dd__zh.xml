@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="" label="查询生成器结果" language="zh" table="u_cmdb_qb_result_64cd54ddd9dfb5087b0c736e49a866c0824b50dd">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element/>
+            <help/>
+            <hint/>
+            <label>查询生成器结果</label>
+            <language>zh</language>
+            <name>u_cmdb_qb_result_64cd54ddd9dfb5087b0c736e49a866c0824b50dd</name>
+            <plural>查询生成器结果</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-01 20:46:33</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>查询生成器结果</sys_name>
+            <sys_package display_value="Technical Repo" source="x_207260_technic_0">6362d051072ff5d05295f19d7c1ed08f</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Technical Repo">6362d051072ff5d05295f19d7c1ed08f</sys_scope>
+            <sys_update_name>sys_documentation_u_cmdb_qb_result_64cd54ddd9dfb5087b0c736e49a866c0824b50dd__zh</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-01 20:46:33</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

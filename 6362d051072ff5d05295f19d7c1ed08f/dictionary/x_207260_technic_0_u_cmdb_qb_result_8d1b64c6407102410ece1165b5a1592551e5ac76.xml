@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><database>
-    <element attributes="ignore_baseline=true" db_object_id="c0ab9255474c0610569f962f316d43db" extends="cmdb_qb_result_base" label="Resultados de generador de consultas" max_length="40" name="x_207260_technic_0_u_cmdb_qb_result_8d1b64c6407102410ece1165b5a1592551e5ac76" type="collection"/>
-</database>

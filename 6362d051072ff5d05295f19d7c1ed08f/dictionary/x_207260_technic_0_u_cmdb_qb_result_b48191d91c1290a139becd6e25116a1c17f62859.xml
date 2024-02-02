@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><database>
-    <element attributes="ignore_baseline=true" db_object_id="a0d48b1147404610569f962f316d439f" extends="cmdb_qb_result_base" label="クエリビルダ結果" max_length="40" name="x_207260_technic_0_u_cmdb_qb_result_b48191d91c1290a139becd6e25116a1c17f62859" type="collection"/>
-</database>

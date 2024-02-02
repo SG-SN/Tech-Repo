@@ -5,11 +5,14 @@
         <active>true</active>
         <annotation/>
         <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=536000,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <copied_from/>
         <copied_from_name/>
         <description>Approvals Group and User</description>
+        <flow_priority/>
+        <generation_source/>
         <internal_name>approvals_group_and_user</internal_name>
         <label_cache>[{"name":"subflow.task.watch_list","label":"Input➛Task➛Watch list","reference":"sys_user","reference_display":"User","type":"glide_list","base_type":"glide_list","parent_table_name":"task","column_name":"watch_list"},{"name":"6fb84772-328c-4a01-a1fe-16317e383721.approval_state","label":"1 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"subflow.task","label":"Input➛Task","reference":"task","reference_display":"Task","type":"reference","base_type":"reference","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"72b8935b-e9bc-46f9-b22d-e3b41357e8fa","uiTypeLabel":"Reference"}},{"name":"{{static.09745cc9c3302200e7c7d44d81d3ae6f}}","label":"ACME Refrigerator Support","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference"},{"name":"subflow.task.assignment_group","label":"Input➛Task➛Assignment group","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","parent_table_name":"task","column_name":"assignment_group"},{"name":"subflow.task.assigned_to","label":"Input➛Task➛Assigned to","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"task","column_name":"assigned_to"}]</label_cache>
         <master_snapshot>7cc5424a473f3510569f962f316d437a</master_snapshot>
@@ -240,6 +243,7 @@
         <comment/>
         <display_text/>
         <flow display_value="Approvals Group and User">6a54460a477b3510569f962f316d43a9</flow>
+        <generation_source/>
         <order>1</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -398,6 +402,7 @@
         <flow display_value="Approvals Group and User">6a54460a477b3510569f962f316d43a9</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <logic_definition display_value="Assign Subflow Outputs">df4e1945c3e232002841b63b12d3ae3e</logic_definition>
         <order>2</order>
@@ -673,11 +678,13 @@
         <active>true</active>
         <annotation/>
         <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <copied_from/>
         <copied_from_name/>
         <description>Approvals Group and User</description>
+        <flow_priority/>
         <internal_name>approvals_group_and_user</internal_name>
         <label_cache>[{"name":"subflow.task.watch_list","label":"Input➛Task➛Watch list","reference":"sys_user","reference_display":"User","type":"glide_list","base_type":"glide_list","parent_table_name":"task","column_name":"watch_list"},{"name":"6fb84772-328c-4a01-a1fe-16317e383721.approval_state","label":"1 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"subflow.task","label":"Input➛Task","reference":"task","reference_display":"Task","type":"reference","base_type":"reference","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"72b8935b-e9bc-46f9-b22d-e3b41357e8fa","uiTypeLabel":"Reference"}},{"name":"{{static.09745cc9c3302200e7c7d44d81d3ae6f}}","label":"ACME Refrigerator Support","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference"},{"name":"subflow.task.assignment_group","label":"Input➛Task➛Assignment group","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","parent_table_name":"task","column_name":"assignment_group"},{"name":"subflow.task.assigned_to","label":"Input➛Task➛Assigned to","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"task","column_name":"assigned_to"}]</label_cache>
         <master>true</master>
@@ -906,6 +913,7 @@
         <comment/>
         <display_text/>
         <flow display_value="Approvals Group and User">7cc5424a473f3510569f962f316d437a</flow>
+        <generation_source/>
         <order>1</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -1064,6 +1072,7 @@
         <flow display_value="Approvals Group and User">7cc5424a473f3510569f962f316d437a</flow>
         <flow_variable/>
         <flow_variables_assigned/>
+        <generation_source/>
         <inputs/>
         <logic_definition display_value="Assign Subflow Outputs">df4e1945c3e232002841b63b12d3ae3e</logic_definition>
         <order>2</order>

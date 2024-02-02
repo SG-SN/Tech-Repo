@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer">
+    <sys_wizard_answer action="DELETE">
+        <active>true</active>
+        <answer>New Insight - Non-cloud VM Instances-Query Results</answer>
+        <button_label/>
+        <dependent_value/>
+        <element/>
+        <name>Insight - Non-cloud VM Instances-Query Results</name>
+        <next_question/>
+        <order>100</order>
+        <payload_name/>
+        <question display_value="Query Builder Results" name="Query Builder Results">c0dcc428d9713110cedf7dffddb48fe0</question>
+        <roles/>
+        <script/>
+        <sys_class_name>sys_wizard_answer</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-31 04:34:26</sys_created_on>
+        <sys_id>a91b723947000210569f962f316d4349</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Insight - Non-cloud VM Instances-Query Results</sys_name>
+        <sys_package display_value="Technical Repo" source="x_207260_technic_0">6362d051072ff5d05295f19d7c1ed08f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Technical Repo">6362d051072ff5d05295f19d7c1ed08f</sys_scope>
+        <sys_update_name>sys_wizard_answer_a91b723947000210569f962f316d4349</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-31 04:34:26</sys_updated_on>
+        <table/>
+        <target_url>x_207260_technic_0_u_cmdb_qb_result_183f91845af03ed63b454ef0db1aa983ba1c7f74.do</target_url>
+        <type>1</type>
+    </sys_wizard_answer>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Technical Repo">6362d051072ff5d05295f19d7c1ed08f</application>
+        <file_path/>
+        <instance_id>67de33aa1b26bd50c84543f4bd4bcb9e</instance_id>
+        <instance_name>dev218032</instance_name>
+        <name>sys_wizard_answer_a91b723947000210569f962f316d4349</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer"><sys_wizard_answer action="INSERT_OR_UPDATE"><active>true</active><answer>New Insight - Non-cloud VM Instances-Query Results</answer><button_label/><dependent_value/><element/><name>Insight - Non-cloud VM Instances-Query Results</name><next_question/><order>100</order><payload_name/><question display_value="Query Builder Results" name="Query Builder Results">c0dcc428d9713110cedf7dffddb48fe0</question><roles/><script/><sys_class_name>sys_wizard_answer</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-01-31 04:34:26</sys_created_on><sys_id>a91b723947000210569f962f316d4349</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Insight - Non-cloud VM Instances-Query Results</sys_name><sys_package display_value="Technical Repo" source="x_207260_technic_0">6362d051072ff5d05295f19d7c1ed08f</sys_package><sys_policy/><sys_scope display_value="Technical Repo">6362d051072ff5d05295f19d7c1ed08f</sys_scope><sys_update_name>sys_wizard_answer_a91b723947000210569f962f316d4349</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-01-31 04:34:26</sys_updated_on><table/><target_url>x_207260_technic_0_u_cmdb_qb_result_183f91845af03ed63b454ef0db1aa983ba1c7f74.do</target_url><type>1</type></sys_wizard_answer></record_update>]]></payload>
+        <payload_hash>-661158227</payload_hash>
+        <record_name>Insight - Non-cloud VM Instances-Query Results</record_name>
+        <reverted_from/>
+        <source>e6a5fab047333110569f962f316d43e6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-31 04:34:26</sys_created_on>
+        <sys_id>691b723947000210569f962f316d434b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18d5dcbff1e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-31 04:34:26</sys_updated_on>
+        <type>Answer</type>
+        <update_guid>6d1b7239ea0002101ccab7dbea775c4a</update_guid>
+        <update_guid_history>6d1b7239ea0002101ccab7dbea775c4a:-661158227</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-01 17:51:41</sys_created_on>
+        <sys_db_object display_value="" name="sys_wizard_answer">sys_wizard_answer</sys_db_object>
+        <sys_id>6dbe7c29cb974850bcfca3676c506900</sys_id>
+        <sys_metadata>a91b723947000210569f962f316d4349</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Insight - Non-cloud VM Instances-Query Results</sys_name>
+        <sys_package display_value="Technical Repo" source="x_207260_technic_0">6362d051072ff5d05295f19d7c1ed08f</sys_package>
+        <sys_parent display_value="Query Builder Results">c0dcc428d9713110cedf7dffddb48fe0</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Technical Repo">6362d051072ff5d05295f19d7c1ed08f</sys_scope>
+        <sys_scope_delete display_value="">9ee46e1ac4cf42e59c28b7b0b296da89</sys_scope_delete>
+        <sys_update_name>sys_wizard_answer_a91b723947000210569f962f316d4349</sys_update_name>
+        <sys_update_version display_value="sys_wizard_answer_a91b723947000210569f962f316d4349">691b723947000210569f962f316d434b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-01 17:51:41</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

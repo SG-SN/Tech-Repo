@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer">
+    <sys_wizard_answer action="DELETE">
+        <active>true</active>
+        <answer>New Insight - Cloud Service Accounts-Query Results</answer>
+        <button_label/>
+        <dependent_value/>
+        <element/>
+        <name>Insight - Cloud Service Accounts-Query Results</name>
+        <next_question/>
+        <order>100</order>
+        <payload_name/>
+        <question display_value="Query Builder Results" name="Query Builder Results">c0dcc428d9713110cedf7dffddb48fe0</question>
+        <roles/>
+        <script/>
+        <sys_class_name>sys_wizard_answer</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-31 16:00:00</sys_created_on>
+        <sys_id>840891c247cc0210569f962f316d4362</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Insight - Cloud Service Accounts-Query Results</sys_name>
+        <sys_package display_value="Technical Repo" source="x_207260_technic_0">6362d051072ff5d05295f19d7c1ed08f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Technical Repo">6362d051072ff5d05295f19d7c1ed08f</sys_scope>
+        <sys_update_name>sys_wizard_answer_840891c247cc0210569f962f316d4362</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-31 16:00:00</sys_updated_on>
+        <table/>
+        <target_url>x_207260_technic_0_u_cmdb_qb_result_b48191d91c1290a139becd6e25116a1c17f62859.do</target_url>
+        <type>1</type>
+    </sys_wizard_answer>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Technical Repo">6362d051072ff5d05295f19d7c1ed08f</application>
+        <file_path/>
+        <instance_id>67de33aa1b26bd50c84543f4bd4bcb9e</instance_id>
+        <instance_name>dev218032</instance_name>
+        <name>sys_wizard_answer_840891c247cc0210569f962f316d4362</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer"><sys_wizard_answer action="INSERT_OR_UPDATE"><active>true</active><answer>New Insight - Cloud Service Accounts-Query Results</answer><button_label/><dependent_value/><element/><name>Insight - Cloud Service Accounts-Query Results</name><next_question/><order>100</order><payload_name/><question display_value="Query Builder Results" name="Query Builder Results">c0dcc428d9713110cedf7dffddb48fe0</question><roles/><script/><sys_class_name>sys_wizard_answer</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-01-31 16:00:00</sys_created_on><sys_id>840891c247cc0210569f962f316d4362</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Insight - Cloud Service Accounts-Query Results</sys_name><sys_package display_value="Technical Repo" source="x_207260_technic_0">6362d051072ff5d05295f19d7c1ed08f</sys_package><sys_policy/><sys_scope display_value="Technical Repo">6362d051072ff5d05295f19d7c1ed08f</sys_scope><sys_update_name>sys_wizard_answer_840891c247cc0210569f962f316d4362</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-01-31 16:00:00</sys_updated_on><table/><target_url>x_207260_technic_0_u_cmdb_qb_result_b48191d91c1290a139becd6e25116a1c17f62859.do</target_url><type>1</type></sys_wizard_answer></record_update>]]></payload>
+        <payload_hash>1130564363</payload_hash>
+        <record_name>Insight - Cloud Service Accounts-Query Results</record_name>
+        <reverted_from/>
+        <source>e6a5fab047333110569f962f316d43e6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-31 16:00:01</sys_created_on>
+        <sys_id>440891c247cc0210569f962f316d4366</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18d603fa82b0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-31 16:00:01</sys_updated_on>
+        <type>Answer</type>
+        <update_guid>480891c2d0cc021089d83b731a5a8065</update_guid>
+        <update_guid_history>480891c2d0cc021089d83b731a5a8065:1130564363</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-01 17:50:03</sys_created_on>
+        <sys_db_object display_value="" name="sys_wizard_answer">sys_wizard_answer</sys_db_object>
+        <sys_id>46eda845955145b2823c85aec3d4bc44</sys_id>
+        <sys_metadata>840891c247cc0210569f962f316d4362</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Insight - Cloud Service Accounts-Query Results</sys_name>
+        <sys_package display_value="Technical Repo" source="x_207260_technic_0">6362d051072ff5d05295f19d7c1ed08f</sys_package>
+        <sys_parent display_value="Query Builder Results">c0dcc428d9713110cedf7dffddb48fe0</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Technical Repo">6362d051072ff5d05295f19d7c1ed08f</sys_scope>
+        <sys_scope_delete display_value="">9ee46e1ac4cf42e59c28b7b0b296da89</sys_scope_delete>
+        <sys_update_name>sys_wizard_answer_840891c247cc0210569f962f316d4362</sys_update_name>
+        <sys_update_version display_value="sys_wizard_answer_840891c247cc0210569f962f316d4362">440891c247cc0210569f962f316d4366</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-01 17:50:03</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
