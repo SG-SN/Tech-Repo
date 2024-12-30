@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation action="DELETE" element="" label="쿼리 작성기 결과" language="ko" table="u_cmdb_qb_result_64cd54ddd9dfb5087b0c736e49a866c0824b50dd">
+        <sys_documentation action="DELETE">
+            <element/>
+            <help/>
+            <hint/>
+            <label>쿼리 작성기 결과</label>
+            <language>ko</language>
+            <name>u_cmdb_qb_result_64cd54ddd9dfb5087b0c736e49a866c0824b50dd</name>
+            <plural>쿼리 작성기 결과</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-01 20:46:33</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>쿼리 작성기 결과</sys_name>
+            <sys_package display_value="Technical Repo" source="x_207260_technic_0">6362d051072ff5d05295f19d7c1ed08f</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Technical Repo">6362d051072ff5d05295f19d7c1ed08f</sys_scope>
+            <sys_update_name>sys_documentation_u_cmdb_qb_result_64cd54ddd9dfb5087b0c736e49a866c0824b50dd__ko</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-01 20:46:33</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Technical Repo">6362d051072ff5d05295f19d7c1ed08f</application>
+        <file_path/>
+        <instance_id>9ca5b0811bdebdd8c8432f8dee4bcb41</instance_id>
+        <instance_name>dev201138</instance_name>
+        <name>sys_documentation_u_cmdb_qb_result_64cd54ddd9dfb5087b0c736e49a866c0824b50dd__ko</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="" label="쿼리 작성기 결과" language="ko" table="u_cmdb_qb_result_64cd54ddd9dfb5087b0c736e49a866c0824b50dd">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element/>
+            <help/>
+            <hint/>
+            <label>쿼리 작성기 결과</label>
+            <language>ko</language>
+            <name>u_cmdb_qb_result_64cd54ddd9dfb5087b0c736e49a866c0824b50dd</name>
+            <plural>쿼리 작성기 결과</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-02-01 20:46:33</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>쿼리 작성기 결과</sys_name>
+            <sys_package display_value="Technical Repo" source="x_207260_technic_0">6362d051072ff5d05295f19d7c1ed08f</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Technical Repo">6362d051072ff5d05295f19d7c1ed08f</sys_scope>
+            <sys_update_name>sys_documentation_u_cmdb_qb_result_64cd54ddd9dfb5087b0c736e49a866c0824b50dd__ko</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-02-01 20:46:33</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>]]></payload>
+        <payload_hash>1668454653</payload_hash>
+        <record_name>Insight - Non-cloud Storage Volume-Query Results</record_name>
+        <reverted_from/>
+        <source>0a8b9b11c3fa1210816c9c377d0131a2</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-30 06:43:09</sys_created_on>
+        <sys_id>e38b9351c3fa1210816c9c377d01310c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>194164de02a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-30 06:43:09</sys_updated_on>
+        <type>Field Label</type>
+        <update_guid>a38b935148fa12108cbf9e0b52cbe00c</update_guid>
+        <update_guid_history>a38b935148fa12108cbf9e0b52cbe00c:1668454653</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-30 06:44:21</sys_created_on>
+        <sys_db_object display_value="" name="sys_documentation">sys_documentation</sys_db_object>
+        <sys_id>404d651e68264a2c9b3578db339dd204</sys_id>
+        <sys_metadata>e38b9351c3fa1210816c9c377d013109</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>쿼리 작성기 결과</sys_name>
+        <sys_package display_value="Technical Repo" source="x_207260_technic_0">6362d051072ff5d05295f19d7c1ed08f</sys_package>
+        <sys_parent display_value="">2a8b5f11c3fa1210816c9c377d013187</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Technical Repo">6362d051072ff5d05295f19d7c1ed08f</sys_scope>
+        <sys_scope_delete display_value="">9ee46e1ac4cf42e59c28b7b0b296da89</sys_scope_delete>
+        <sys_update_name>sys_documentation_u_cmdb_qb_result_64cd54ddd9dfb5087b0c736e49a866c0824b50dd__ko</sys_update_name>
+        <sys_update_version display_value="sys_documentation_u_cmdb_qb_result_64cd54ddd9dfb5087b0c736e49a866c0824b50dd__ko">e38b9351c3fa1210816c9c377d01310c</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-30 06:44:21</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
