@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object">
+    <sys_db_object action="DELETE">
+        <access/>
+        <actions_access>true</actions_access>
+        <alter_access>true</alter_access>
+        <caller_access/>
+        <client_scripts_access>true</client_scripts_access>
+        <configuration_access>false</configuration_access>
+        <create_access>true</create_access>
+        <create_access_controls>false</create_access_controls>
+        <delete_access>false</delete_access>
+        <is_extendable>false</is_extendable>
+        <label>Resultados do Estruturador de Consultas</label>
+        <live_feed_enabled>false</live_feed_enabled>
+        <name>u_cmdb_qb_result_2d784a097c763adb9b767edb08c27d002415133b</name>
+        <number_ref/>
+        <provider_class/>
+        <read_access>true</read_access>
+        <scriptable_table>false</scriptable_table>
+        <super_class display_value="Query Builder Results" name="cmdb_qb_result_base">c00217a8dc5212104f34465061b06a5a</super_class>
+        <sys_class_name>sys_db_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-30 06:43:05</sys_created_on>
+        <sys_id>8e9fd49347000210569f962f316d4301</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CMDB Qb Result 2d784a097c763adb9b767edb08c27d002415133b</sys_name>
+        <sys_package display_value="Technical Repo" source="x_207260_technic_0">6362d051072ff5d05295f19d7c1ed08f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Technical Repo">6362d051072ff5d05295f19d7c1ed08f</sys_scope>
+        <sys_update_name>sys_db_object_8e9fd49347000210569f962f316d4301</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-30 06:43:05</sys_updated_on>
+        <update_access>true</update_access>
+        <user_role/>
+        <ws_access>true</ws_access>
+    </sys_db_object>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Technical Repo">6362d051072ff5d05295f19d7c1ed08f</application>
+        <file_path/>
+        <instance_id>9ca5b0811bdebdd8c8432f8dee4bcb41</instance_id>
+        <instance_name>dev201138</instance_name>
+        <name>sys_db_object_8e9fd49347000210569f962f316d4301</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object"><sys_db_object action="INSERT_OR_UPDATE"><access/><actions_access>true</actions_access><alter_access>true</alter_access><caller_access/><client_scripts_access>true</client_scripts_access><configuration_access>false</configuration_access><create_access>true</create_access><create_access_controls>false</create_access_controls><delete_access>false</delete_access><is_extendable>false</is_extendable><label>Resultados do Estruturador de Consultas</label><live_feed_enabled>false</live_feed_enabled><name>u_cmdb_qb_result_2d784a097c763adb9b767edb08c27d002415133b</name><number_ref/><provider_class/><read_access>true</read_access><scriptable_table>false</scriptable_table><super_class display_value="Query Builder Results" name="cmdb_qb_result_base">c00217a8dc5212104f34465061b06a5a</super_class><sys_class_name>sys_db_object</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-30 06:43:05</sys_created_on><sys_id>8e9fd49347000210569f962f316d4301</sys_id><sys_mod_count>0</sys_mod_count><sys_name>CMDB Qb Result 2d784a097c763adb9b767edb08c27d002415133b</sys_name><sys_package display_value="Technical Repo" source="x_207260_technic_0">6362d051072ff5d05295f19d7c1ed08f</sys_package><sys_policy/><sys_scope display_value="Technical Repo">6362d051072ff5d05295f19d7c1ed08f</sys_scope><sys_update_name>sys_db_object_8e9fd49347000210569f962f316d4301</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-30 06:43:05</sys_updated_on><update_access>true</update_access><user_role/><ws_access>true</ws_access></sys_db_object></record_update>]]></payload>
+        <payload_hash>1269477911</payload_hash>
+        <record_name>Resultados do Estruturador de Consultas</record_name>
+        <reverted_from/>
+        <source/>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-30 06:52:01</sys_created_on>
+        <sys_id>459d9b19c3fa1210816c9c377d01313c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1941655fb450000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-30 06:52:01</sys_updated_on>
+        <type>Table</type>
+        <update_guid>059d9b1906fa1210da5120c81b5a933c</update_guid>
+        <update_guid_history>059d9b1906fa1210da5120c81b5a933c:1269477911</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-30 06:52:02</sys_created_on>
+        <sys_db_object display_value="" name="sys_db_object">sys_db_object</sys_db_object>
+        <sys_id>065ae019e3024c22880fc421419bf524</sys_id>
+        <sys_metadata>8e9fd49347000210569f962f316d4301</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CMDB Qb Result 2d784a097c763adb9b767edb08c27d002415133b</sys_name>
+        <sys_package display_value="Technical Repo" source="x_207260_technic_0">6362d051072ff5d05295f19d7c1ed08f</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Technical Repo">6362d051072ff5d05295f19d7c1ed08f</sys_scope>
+        <sys_scope_delete display_value="">9ee46e1ac4cf42e59c28b7b0b296da89</sys_scope_delete>
+        <sys_update_name>sys_db_object_8e9fd49347000210569f962f316d4301</sys_update_name>
+        <sys_update_version display_value="sys_db_object_8e9fd49347000210569f962f316d4301">459d9b19c3fa1210816c9c377d01313c</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-30 06:52:02</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
