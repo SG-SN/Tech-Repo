@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="DELETE">
+        <sc_cat_item display_value="VGM Request Flow">895a0d0e47f73510569f962f316d43be</sc_cat_item>
+        <sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-19 04:44:35</sys_created_on>
+        <sys_id>0d5a0d0e47f73510569f962f316d43c3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.Copy of VGM Request Flow</sys_name>
+        <sys_package display_value="Technical Repo" source="x_207260_technic_0">6362d051072ff5d05295f19d7c1ed08f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Technical Repo">6362d051072ff5d05295f19d7c1ed08f</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_0d5a0d0e47f73510569f962f316d43c3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-19 04:44:35</sys_updated_on>
+    </sc_cat_item_catalog>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Technical Repo">6362d051072ff5d05295f19d7c1ed08f</application>
+        <file_path/>
+        <instance_id>9ca5b0811bdebdd8c8432f8dee4bcb41</instance_id>
+        <instance_name>dev201138</instance_name>
+        <name>sc_cat_item_catalog_0d5a0d0e47f73510569f962f316d43c3</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="VGM Request Flow">895a0d0e47f73510569f962f316d43be</sc_cat_item>
+        <sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-19 04:44:35</sys_created_on>
+        <sys_id>0d5a0d0e47f73510569f962f316d43c3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.Copy of VGM Request Flow</sys_name>
+        <sys_package display_value="Technical Repo" source="x_207260_technic_0">6362d051072ff5d05295f19d7c1ed08f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Technical Repo">6362d051072ff5d05295f19d7c1ed08f</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_0d5a0d0e47f73510569f962f316d43c3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-19 04:44:35</sys_updated_on>
+    </sc_cat_item_catalog>
+</record_update>]]></payload>
+        <payload_hash>1253964248</payload_hash>
+        <record_name>Service Catalog.Copy of VGM Request Flow</record_name>
+        <reverted_from/>
+        <source>0a8b9b11c3fa1210816c9c377d0131a2</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-30 06:43:15</sys_created_on>
+        <sys_id>f09bd751c3fa1210816c9c377d0131b9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>194164df6370000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-30 06:43:15</sys_updated_on>
+        <type>Catalog Items Catalog</type>
+        <update_guid>b09bd75134fa121007b6b28d5ec20eb9</update_guid>
+        <update_guid_history>b09bd75134fa121007b6b28d5ec20eb9:1253964248</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Service Catalog.Copy of VGM Request Flow">c43e1359c3fa1210816c9c377d01315b</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-30 06:54:40</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_catalog">sc_cat_item_catalog</sys_db_object>
+        <sys_id>74014b9bea6f4620b32016b8a62ee110</sys_id>
+        <sys_metadata>0d5a0d0e47f73510569f962f316d43c3</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.Copy of VGM Request Flow</sys_name>
+        <sys_package display_value="Technical Repo" source="x_207260_technic_0">6362d051072ff5d05295f19d7c1ed08f</sys_package>
+        <sys_parent display_value="">895a0d0e47f73510569f962f316d43be</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Technical Repo">6362d051072ff5d05295f19d7c1ed08f</sys_scope>
+        <sys_scope_delete display_value="">9ee46e1ac4cf42e59c28b7b0b296da89</sys_scope_delete>
+        <sys_update_name>sc_cat_item_catalog_0d5a0d0e47f73510569f962f316d43c3</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_catalog_0d5a0d0e47f73510569f962f316d43c3">f09bd751c3fa1210816c9c377d0131b9</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-30 06:54:40</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

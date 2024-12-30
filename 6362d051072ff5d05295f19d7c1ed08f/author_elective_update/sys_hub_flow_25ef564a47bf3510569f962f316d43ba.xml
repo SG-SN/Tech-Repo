@@ -1,0 +1,808 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="DELETE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <flow_priority/>
+        <generation_source/>
+        <internal_name>get_model_from_ci</internal_name>
+        <label_cache>[{"name":"subflow.network_gear.model_id.name","label":"Input➛Network Gear➛Model ID➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"cmdb_model","column_name":"name"}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Get Model From CI</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-19 10:58:27</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>25ef564a47bf3510569f962f316d43ba</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Get Model From CI</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Technical Repo" source="x_207260_technic_0">6362d051072ff5d05295f19d7c1ed08f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Technical Repo">6362d051072ff5d05295f19d7c1ed08f</sys_scope>
+        <sys_update_name>sys_hub_flow_25ef564a47bf3510569f962f316d43ba</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-19 11:36:06</sys_updated_on>
+        <type>subflow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="DELETE" query="documentkey=25ef564a47bf3510569f962f316d43ba"/>
+    <sys_variable_value action="DELETE" query="document_key=25ef564a47bf3510569f962f316d43ba"/>
+    <sys_hub_trigger_instance action="DELETE" query="flow=25ef564a47bf3510569f962f316d43ba"/>
+    <sys_hub_flow_stage action="DELETE" query="flow=25ef564a47bf3510569f962f316d43ba"/>
+    <sys_flow_cat_variable_model action="DELETE" query="id=25ef564a47bf3510569f962f316d43ba^sys_idNOT INadef564a47bf3510569f962f316d43ba"/>
+    <sys_flow_cat_variable_model action="DELETE">
+        <id>25ef564a47bf3510569f962f316d43ba</id>
+        <name>Get Model From CI</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-19 10:58:27</sys_created_on>
+        <sys_id>adef564a47bf3510569f962f316d43ba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-19 10:58:27</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="DELETE" query="flow_catalog_model=adef564a47bf3510569f962f316d43ba"/>
+    <sys_hub_flow_input action="DELETE" query="model=25ef564a47bf3510569f962f316d43ba^sys_idNOT IN5390aa8a47bf3510569f962f316d43bc"/>
+    <sys_hub_flow_input action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=13d8cd26-ead9-4a1e-a933-de87ea06361a</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table>cmdb_ci_netgear</choice_table>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>network_gear</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>Network Gear</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Get Model From CI">25ef564a47bf3510569f962f316d43ba</model>
+        <model_id>25ef564a47bf3510569f962f316d43ba</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_25ef564a47bf3510569f962f316d43ba</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="cmdb_ci_netgear">cmdb_ci_netgear</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-19 11:01:34</sys_created_on>
+        <sys_id>5390aa8a47bf3510569f962f316d43bc</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Technical Repo">6362d051072ff5d05295f19d7c1ed08f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-19 11:01:34</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="DELETE" query="action_input=5390aa8a47bf3510569f962f316d43bc"/>
+    <sys_hub_flow_output action="DELETE" query="model=25ef564a47bf3510569f962f316d43ba"/>
+    <sys_hub_alias_mapping action="DELETE" query="source_id=25ef564a47bf3510569f962f316d43ba"/>
+    <sys_hub_action_instance action="DELETE" query="flow=25ef564a47bf3510569f962f316d43ba"/>
+    <sys_hub_sub_flow_instance action="DELETE" query="flow=25ef564a47bf3510569f962f316d43ba"/>
+    <sys_hub_flow_logic action="DELETE" query="flow=25ef564a47bf3510569f962f316d43ba^sys_idNOT IN5588ae4647ff3510569f962f316d4384"/>
+    <sys_hub_flow_logic action="DELETE">
+        <attributes/>
+        <block display_value="">5d88ae4647ff3510569f962f316d4383</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Get Model From CI">25ef564a47bf3510569f962f316d43ba</flow>
+        <flow_variable/>
+        <flow_variable/>
+        <flow_variables_assigned>model</flow_variables_assigned>
+        <generation_source/>
+        <inputs/>
+        <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
+        <order>1</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-19 11:36:06</sys_created_on>
+        <sys_id>5588ae4647ff3510569f962f316d4384</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Technical Repo">6362d051072ff5d05295f19d7c1ed08f</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-19 11:36:06</sys_updated_on>
+        <ui_id>70af50f7-1e46-4e78-bf40-05b170de59d7</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="DELETE" query="document_key=5588ae4647ff3510569f962f316d4384"/>
+    <sys_element_mapping action="DELETE" query="id=5588ae4647ff3510569f962f316d4384"/>
+    <sys_element_mapping action="DELETE">
+        <field>model</field>
+        <id>5588ae4647ff3510569f962f316d4384</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-19 11:36:06</sys_created_on>
+        <sys_id>dd88ae4647ff3510569f962f316d4386</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-19 11:36:06</sys_updated_on>
+        <table>var__m_sys_hub_flow_variable_25ef564a47bf3510569f962f316d43ba</table>
+        <value>{{subflow.network_gear.model_id.name}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="DELETE" query="model=5588ae4647ff3510569f962f316d4384"/>
+    <sys_hub_input_scripts action="DELETE" query="instance=5588ae4647ff3510569f962f316d4384^sys_idNOT IN9588ae4647ff3510569f962f316d4385"/>
+    <sys_hub_input_scripts action="DELETE">
+        <active>false</active>
+        <input_name>model</input_name>
+        <instance>5588ae4647ff3510569f962f316d4384</instance>
+        <referenced_table>sys_hub_flow_logic</referenced_table>
+        <script>{"model":{"scriptActive":false,"script":"/*\n**Access Flow/Action data using the fd_data object. Script must return a value. \n**Order number is offset by +1 in Error Handling Section.\n**Available options display upon pressing \".\" after fd_data\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/"}}</script>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-19 11:36:06</sys_created_on>
+        <sys_id>9588ae4647ff3510569f962f316d4385</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-19 11:36:06</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_pill_compound action="DELETE" query="attached_to=25ef564a47bf3510569f962f316d43ba^sys_idNOT IN1b90220e47bf3510569f962f316d4312,9f90220e47bf3510569f962f316d4312,db90220e47bf3510569f962f316d4312"/>
+    <sys_hub_pill_compound action="DELETE">
+        <attached_to>25ef564a47bf3510569f962f316d43ba</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{subflow.network_gear.model_id.name}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-19 11:01:34</sys_created_on>
+        <sys_id>1b90220e47bf3510569f962f316d4312</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Technical Repo">6362d051072ff5d05295f19d7c1ed08f</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-19 11:01:34</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>606d6118-84b2-4dc1-8f60-d9d3feb09d6b</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="DELETE">
+        <attached_to>25ef564a47bf3510569f962f316d43ba</attached_to>
+        <extra_info/>
+        <order>2</order>
+        <prescription/>
+        <source_ui_id>606d6118-84b2-4dc1-8f60-d9d3feb09d6b</source_ui_id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-19 11:01:34</sys_created_on>
+        <sys_id>9f90220e47bf3510569f962f316d4312</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Technical Repo">6362d051072ff5d05295f19d7c1ed08f</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-19 11:01:34</sys_updated_on>
+        <transform_compositions>[{"id":"d57a5377c72333003884f80bf4c260f9","transformType":null,"transformDefinition":null,"order":0,"parameters":[{"id":null,"name":"separator","label":"Separator","order":0,"attributes":{},"value":".","type":"string","defaultValue":"","typeLabel":null,"mandatory":false,"choices":[]}]}]</transform_compositions>
+        <transform_definition_id display_value="split">2f3a1377c72333003884f80bf4c26038</transform_definition_id>
+        <ui_id>b5d5a9c4-f2c6-4eae-81d2-3e04762410d4</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="DELETE">
+        <attached_to>25ef564a47bf3510569f962f316d43ba</attached_to>
+        <extra_info/>
+        <order>1</order>
+        <prescription/>
+        <source_ui_id>606d6118-84b2-4dc1-8f60-d9d3feb09d6b</source_ui_id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-19 11:01:34</sys_created_on>
+        <sys_id>db90220e47bf3510569f962f316d4312</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Technical Repo">6362d051072ff5d05295f19d7c1ed08f</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-19 11:01:34</sys_updated_on>
+        <transform_compositions>[{"id":"d57a5377c72333003884f80bf4c260f9","transformType":null,"transformDefinition":null,"order":0,"parameters":[{"id":null,"name":"separator","label":"Separator","order":0,"attributes":{},"value":".","type":"string","defaultValue":"","typeLabel":null,"mandatory":false,"choices":[]}]}]</transform_compositions>
+        <transform_definition_id display_value="split">2f3a1377c72333003884f80bf4c26038</transform_definition_id>
+        <ui_id>2baae121-1050-4d1b-8671-40b3cc7c9407</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_flow_variable action="DELETE" query="model=25ef564a47bf3510569f962f316d43ba^sys_idNOT INe8702eca47bf3510569f962f316d4360"/>
+    <sys_hub_flow_variable action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=5ce7e589-ac41-47da-be67-77795fbaced6</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>model</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Model</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Get Model From CI">25ef564a47bf3510569f962f316d43ba</model>
+        <model_id>25ef564a47bf3510569f962f316d43ba</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_variable_25ef564a47bf3510569f962f316d43ba</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-19 11:00:50</sys_created_on>
+        <sys_id>e8702eca47bf3510569f962f316d4360</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Technical Repo">6362d051072ff5d05295f19d7c1ed08f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-19 11:00:50</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_flow_input_25ef564a47bf3510569f962f316d43ba^sys_idNOT IN5390220e47bf3510569f962f316d4307"/>
+    <sys_documentation action="DELETE">
+        <element>network_gear</element>
+        <help/>
+        <hint/>
+        <label>Network Gear</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_25ef564a47bf3510569f962f316d43ba</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-19 11:01:34</sys_created_on>
+        <sys_id>5390220e47bf3510569f962f316d4307</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Technical Repo" source="x_207260_technic_0">6362d051072ff5d05295f19d7c1ed08f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Technical Repo">6362d051072ff5d05295f19d7c1ed08f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-19 11:01:34</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_flow_input_25ef564a47bf3510569f962f316d43ba"/>
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_flow_output_25ef564a47bf3510569f962f316d43ba"/>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_flow_output_25ef564a47bf3510569f962f316d43ba"/>
+    <sys_flow_trigger_plan action="DELETE" query="plan_id=25ef564a47bf3510569f962f316d43ba"/>
+    <sys_flow_subflow_plan action="DELETE" query="plan_id=25ef564a47bf3510569f962f316d43ba"/>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Technical Repo">6362d051072ff5d05295f19d7c1ed08f</application>
+        <file_path/>
+        <instance_id>9ca5b0811bdebdd8c8432f8dee4bcb41</instance_id>
+        <instance_name>dev201138</instance_name>
+        <name>sys_hub_flow_25ef564a47bf3510569f962f316d43ba</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_hub_flow"&gt;
+    &lt;sys_hub_flow action="INSERT_OR_UPDATE"&gt;
+        &lt;access&gt;public&lt;/access&gt;
+        &lt;acls/&gt;
+        &lt;active&gt;false&lt;/active&gt;
+        &lt;annotation/&gt;
+        &lt;attributes&gt;browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,viewActivatedIn=naturalLanguage&lt;/attributes&gt;
+        &lt;authored_on_release_version/&gt;
+        &lt;callable_by_client_api&gt;false&lt;/callable_by_client_api&gt;
+        &lt;category/&gt;
+        &lt;compiler_build/&gt;
+        &lt;copied_from/&gt;
+        &lt;copied_from_name/&gt;
+        &lt;description/&gt;
+        &lt;flow_priority/&gt;
+        &lt;generation_source/&gt;
+        &lt;internal_name&gt;get_model_from_ci&lt;/internal_name&gt;
+        &lt;label_cache&gt;[{"name":"subflow.network_gear.model_id.name","label":"Input➛Network Gear➛Model ID➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"cmdb_model","column_name":"name"}]&lt;/label_cache&gt;
+        &lt;latest_snapshot/&gt;
+        &lt;master_snapshot/&gt;
+        &lt;name&gt;Get Model From CI&lt;/name&gt;
+        &lt;natlang/&gt;
+        &lt;outputs/&gt;
+        &lt;pre_compiled&gt;false&lt;/pre_compiled&gt;
+        &lt;remote_trigger_id/&gt;
+        &lt;run_as&gt;system&lt;/run_as&gt;
+        &lt;run_with_roles/&gt;
+        &lt;sc_callable&gt;false&lt;/sc_callable&gt;
+        &lt;show_draft_actions&gt;false&lt;/show_draft_actions&gt;
+        &lt;show_triggered_flows&gt;false&lt;/show_triggered_flows&gt;
+        &lt;status&gt;draft&lt;/status&gt;
+        &lt;sys_class_name&gt;sys_hub_flow&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2024-01-19 10:58:27&lt;/sys_created_on&gt;
+        &lt;sys_domain&gt;global&lt;/sys_domain&gt;
+        &lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;
+        &lt;sys_id&gt;25ef564a47bf3510569f962f316d43ba&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;
+        &lt;sys_name&gt;Get Model From CI&lt;/sys_name&gt;
+        &lt;sys_overrides/&gt;
+        &lt;sys_package display_value="Technical Repo" source="x_207260_technic_0"&gt;6362d051072ff5d05295f19d7c1ed08f&lt;/sys_package&gt;
+        &lt;sys_policy/&gt;
+        &lt;sys_scope display_value="Technical Repo"&gt;6362d051072ff5d05295f19d7c1ed08f&lt;/sys_scope&gt;
+        &lt;sys_update_name&gt;sys_hub_flow_25ef564a47bf3510569f962f316d43ba&lt;/sys_update_name&gt;
+        &lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2024-01-19 11:36:06&lt;/sys_updated_on&gt;
+        &lt;type&gt;subflow&lt;/type&gt;
+    &lt;/sys_hub_flow&gt;
+    &lt;sys_translated_text action="delete_multiple" query="documentkey=25ef564a47bf3510569f962f316d43ba"/&gt;
+    &lt;sys_variable_value action="delete_multiple" query="document_key=25ef564a47bf3510569f962f316d43ba"/&gt;
+    &lt;sys_hub_trigger_instance action="delete_multiple" query="flow=25ef564a47bf3510569f962f316d43ba"/&gt;
+    &lt;sys_hub_flow_stage action="delete_multiple" query="flow=25ef564a47bf3510569f962f316d43ba"/&gt;
+    &lt;sys_flow_cat_variable_model action="delete_multiple" query="id=25ef564a47bf3510569f962f316d43ba^sys_idNOT INadef564a47bf3510569f962f316d43ba"/&gt;
+    &lt;sys_flow_cat_variable_model action="INSERT_OR_UPDATE"&gt;
+        &lt;id&gt;25ef564a47bf3510569f962f316d43ba&lt;/id&gt;
+        &lt;name&gt;Get Model From CI&lt;/name&gt;
+        &lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2024-01-19 10:58:27&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;adef564a47bf3510569f962f316d43ba&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_scope/&gt;
+        &lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2024-01-19 10:58:27&lt;/sys_updated_on&gt;
+    &lt;/sys_flow_cat_variable_model&gt;
+    &lt;sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=adef564a47bf3510569f962f316d43ba"/&gt;
+    &lt;sys_hub_flow_input action="delete_multiple" query="model=25ef564a47bf3510569f962f316d43ba^sys_idNOT IN5390aa8a47bf3510569f962f316d43bc"/&gt;
+    &lt;sys_hub_flow_input action="INSERT_OR_UPDATE"&gt;
+        &lt;active&gt;true&lt;/active&gt;
+        &lt;array&gt;false&lt;/array&gt;
+        &lt;array_denormalized&gt;false&lt;/array_denormalized&gt;
+        &lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=13d8cd26-ead9-4a1e-a933-de87ea06361a&lt;/attributes&gt;
+        &lt;audit&gt;false&lt;/audit&gt;
+        &lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;
+        &lt;choice/&gt;
+        &lt;choice_field/&gt;
+        &lt;choice_table&gt;cmdb_ci_netgear&lt;/choice_table&gt;
+        &lt;column_label/&gt;
+        &lt;comments/&gt;
+        &lt;create_roles/&gt;
+        &lt;default_value/&gt;
+        &lt;defaultsort/&gt;
+        &lt;delete_roles/&gt;
+        &lt;dependent/&gt;
+        &lt;dependent_on_field/&gt;
+        &lt;display&gt;false&lt;/display&gt;
+        &lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;
+        &lt;dynamic_creation_script/&gt;
+        &lt;dynamic_default_value/&gt;
+        &lt;dynamic_ref_qual/&gt;
+        &lt;element&gt;network_gear&lt;/element&gt;
+        &lt;element_reference&gt;false&lt;/element_reference&gt;
+        &lt;foreign_database/&gt;
+        &lt;formula/&gt;
+        &lt;function_definition/&gt;
+        &lt;function_field&gt;false&lt;/function_field&gt;
+        &lt;help/&gt;
+        &lt;hint/&gt;
+        &lt;internal_type display_value="Reference"&gt;reference&lt;/internal_type&gt;
+        &lt;label&gt;Network Gear&lt;/label&gt;
+        &lt;mandatory&gt;true&lt;/mandatory&gt;
+        &lt;max_length&gt;32&lt;/max_length&gt;
+        &lt;model display_value="Get Model From CI"&gt;25ef564a47bf3510569f962f316d43ba&lt;/model&gt;
+        &lt;model_id&gt;25ef564a47bf3510569f962f316d43ba&lt;/model_id&gt;
+        &lt;model_table&gt;sys_hub_flow&lt;/model_table&gt;
+        &lt;name&gt;var__m_sys_hub_flow_input_25ef564a47bf3510569f962f316d43ba&lt;/name&gt;
+        &lt;next_element/&gt;
+        &lt;order&gt;1&lt;/order&gt;
+        &lt;primary&gt;false&lt;/primary&gt;
+        &lt;read_only&gt;false&lt;/read_only&gt;
+        &lt;read_roles/&gt;
+        &lt;reference display_value="" name="cmdb_ci_netgear"&gt;cmdb_ci_netgear&lt;/reference&gt;
+        &lt;reference_cascade_rule/&gt;
+        &lt;reference_floats&gt;false&lt;/reference_floats&gt;
+        &lt;reference_key/&gt;
+        &lt;reference_qual/&gt;
+        &lt;reference_qual_condition/&gt;
+        &lt;reference_type/&gt;
+        &lt;sizeclass/&gt;
+        &lt;spell_check&gt;false&lt;/spell_check&gt;
+        &lt;staged&gt;false&lt;/staged&gt;
+        &lt;sys_class_name&gt;sys_hub_flow_input&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2024-01-19 11:01:34&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;5390aa8a47bf3510569f962f316d43bc&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;
+        &lt;sys_name/&gt;
+        &lt;sys_package/&gt;
+        &lt;sys_policy/&gt;
+        &lt;sys_scope display_value="Technical Repo"&gt;6362d051072ff5d05295f19d7c1ed08f&lt;/sys_scope&gt;
+        &lt;sys_update_name/&gt;
+        &lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2024-01-19 11:01:34&lt;/sys_updated_on&gt;
+        &lt;table_reference&gt;false&lt;/table_reference&gt;
+        &lt;text_index&gt;false&lt;/text_index&gt;
+        &lt;unique&gt;false&lt;/unique&gt;
+        &lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;
+        &lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;
+        &lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;
+        &lt;virtual&gt;false&lt;/virtual&gt;
+        &lt;virtual_type&gt;script&lt;/virtual_type&gt;
+        &lt;widget/&gt;
+        &lt;write_roles/&gt;
+        &lt;xml_view&gt;false&lt;/xml_view&gt;
+    &lt;/sys_hub_flow_input&gt;
+    &lt;sys_hub_action_input_action_instance action="delete_multiple" query="action_input=5390aa8a47bf3510569f962f316d43bc"/&gt;
+    &lt;sys_hub_flow_output action="delete_multiple" query="model=25ef564a47bf3510569f962f316d43ba"/&gt;
+    &lt;sys_hub_alias_mapping action="delete_multiple" query="source_id=25ef564a47bf3510569f962f316d43ba"/&gt;
+    &lt;sys_hub_action_instance action="delete_multiple" query="flow=25ef564a47bf3510569f962f316d43ba"/&gt;
+    &lt;sys_hub_sub_flow_instance action="delete_multiple" query="flow=25ef564a47bf3510569f962f316d43ba"/&gt;
+    &lt;sys_hub_flow_logic action="delete_multiple" query="flow=25ef564a47bf3510569f962f316d43ba^sys_idNOT IN5588ae4647ff3510569f962f316d4384"/&gt;
+    &lt;sys_hub_flow_logic action="INSERT_OR_UPDATE"&gt;
+        &lt;attributes/&gt;
+        &lt;block display_value=""&gt;5d88ae4647ff3510569f962f316d4383&lt;/block&gt;
+        &lt;comment/&gt;
+        &lt;connected_to/&gt;
+        &lt;decision_table/&gt;
+        &lt;decision_table_inputs/&gt;
+        &lt;display_text/&gt;
+        &lt;extended_inputs/&gt;
+        &lt;flow display_value="Get Model From CI"&gt;25ef564a47bf3510569f962f316d43ba&lt;/flow&gt;
+        &lt;flow_variable/&gt;
+        &lt;flow_variable/&gt;
+        &lt;flow_variables_assigned&gt;model&lt;/flow_variables_assigned&gt;
+        &lt;generation_source/&gt;
+        &lt;inputs/&gt;
+        &lt;logic_definition display_value="Set Flow Variables"&gt;4f787d1e0f9b0010ecf0cc52ff767ea0&lt;/logic_definition&gt;
+        &lt;order&gt;1&lt;/order&gt;
+        &lt;outputs_assigned/&gt;
+        &lt;outputs_to_assign/&gt;
+        &lt;parent_ui_id/&gt;
+        &lt;sys_class_name&gt;sys_hub_flow_logic&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2024-01-19 11:36:06&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;5588ae4647ff3510569f962f316d4384&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;
+        &lt;sys_scope display_value="Technical Repo"&gt;6362d051072ff5d05295f19d7c1ed08f&lt;/sys_scope&gt;
+        &lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2024-01-19 11:36:06&lt;/sys_updated_on&gt;
+        &lt;ui_id&gt;70af50f7-1e46-4e78-bf40-05b170de59d7&lt;/ui_id&gt;
+        &lt;workflow_inputs/&gt;
+        &lt;workflow_reference/&gt;
+    &lt;/sys_hub_flow_logic&gt;
+    &lt;sys_variable_value action="delete_multiple" query="document_key=5588ae4647ff3510569f962f316d4384"/&gt;
+    &lt;sys_element_mapping action="delete_multiple" query="id=5588ae4647ff3510569f962f316d4384"/&gt;
+    &lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;
+        &lt;field&gt;model&lt;/field&gt;
+        &lt;id&gt;5588ae4647ff3510569f962f316d4384&lt;/id&gt;
+        &lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2024-01-19 11:36:06&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;dd88ae4647ff3510569f962f316d4386&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2024-01-19 11:36:06&lt;/sys_updated_on&gt;
+        &lt;table&gt;var__m_sys_hub_flow_variable_25ef564a47bf3510569f962f316d43ba&lt;/table&gt;
+        &lt;value&gt;{{subflow.network_gear.model_id.name}}&lt;/value&gt;
+    &lt;/sys_element_mapping&gt;
+    &lt;sys_hub_flow_logic_ext_input action="delete_multiple" query="model=5588ae4647ff3510569f962f316d4384"/&gt;
+    &lt;sys_hub_input_scripts action="delete_multiple" query="instance=5588ae4647ff3510569f962f316d4384^sys_idNOT IN9588ae4647ff3510569f962f316d4385"/&gt;
+    &lt;sys_hub_input_scripts action="INSERT_OR_UPDATE"&gt;
+        &lt;active&gt;false&lt;/active&gt;
+        &lt;input_name&gt;model&lt;/input_name&gt;
+        &lt;instance&gt;5588ae4647ff3510569f962f316d4384&lt;/instance&gt;
+        &lt;referenced_table&gt;sys_hub_flow_logic&lt;/referenced_table&gt;
+        &lt;script&gt;{"model":{"scriptActive":false,"script":"/*\n**Access Flow/Action data using the fd_data object. Script must return a value. \n**Order number is offset by +1 in Error Handling Section.\n**Available options display upon pressing \".\" after fd_data\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/"}}&lt;/script&gt;
+        &lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2024-01-19 11:36:06&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;9588ae4647ff3510569f962f316d4385&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2024-01-19 11:36:06&lt;/sys_updated_on&gt;
+    &lt;/sys_hub_input_scripts&gt;
+    &lt;sys_hub_pill_compound action="delete_multiple" query="attached_to=25ef564a47bf3510569f962f316d43ba^sys_idNOT IN1b90220e47bf3510569f962f316d4312,9f90220e47bf3510569f962f316d4312,db90220e47bf3510569f962f316d4312"/&gt;
+    &lt;sys_hub_pill_compound action="INSERT_OR_UPDATE"&gt;
+        &lt;attached_to&gt;25ef564a47bf3510569f962f316d43ba&lt;/attached_to&gt;
+        &lt;extra_info/&gt;
+        &lt;order&gt;0&lt;/order&gt;
+        &lt;prescription&gt;{{subflow.network_gear.model_id.name}}&lt;/prescription&gt;
+        &lt;source_ui_id/&gt;
+        &lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2024-01-19 11:01:34&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;1b90220e47bf3510569f962f316d4312&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_scope display_value="Technical Repo"&gt;6362d051072ff5d05295f19d7c1ed08f&lt;/sys_scope&gt;
+        &lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2024-01-19 11:01:34&lt;/sys_updated_on&gt;
+        &lt;transform_compositions&gt;[]&lt;/transform_compositions&gt;
+        &lt;transform_definition_id/&gt;
+        &lt;ui_id&gt;606d6118-84b2-4dc1-8f60-d9d3feb09d6b&lt;/ui_id&gt;
+    &lt;/sys_hub_pill_compound&gt;
+    &lt;sys_hub_pill_compound action="INSERT_OR_UPDATE"&gt;
+        &lt;attached_to&gt;25ef564a47bf3510569f962f316d43ba&lt;/attached_to&gt;
+        &lt;extra_info/&gt;
+        &lt;order&gt;2&lt;/order&gt;
+        &lt;prescription/&gt;
+        &lt;source_ui_id&gt;606d6118-84b2-4dc1-8f60-d9d3feb09d6b&lt;/source_ui_id&gt;
+        &lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2024-01-19 11:01:34&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;9f90220e47bf3510569f962f316d4312&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_scope display_value="Technical Repo"&gt;6362d051072ff5d05295f19d7c1ed08f&lt;/sys_scope&gt;
+        &lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2024-01-19 11:01:34&lt;/sys_updated_on&gt;
+        &lt;transform_compositions&gt;[{"id":"d57a5377c72333003884f80bf4c260f9","transformType":null,"transformDefinition":null,"order":0,"parameters":[{"id":null,"name":"separator","label":"Separator","order":0,"attributes":{},"value":".","type":"string","defaultValue":"","typeLabel":null,"mandatory":false,"choices":[]}]}]&lt;/transform_compositions&gt;
+        &lt;transform_definition_id display_value="split"&gt;2f3a1377c72333003884f80bf4c26038&lt;/transform_definition_id&gt;
+        &lt;ui_id&gt;b5d5a9c4-f2c6-4eae-81d2-3e04762410d4&lt;/ui_id&gt;
+    &lt;/sys_hub_pill_compound&gt;
+    &lt;sys_hub_pill_compound action="INSERT_OR_UPDATE"&gt;
+        &lt;attached_to&gt;25ef564a47bf3510569f962f316d43ba&lt;/attached_to&gt;
+        &lt;extra_info/&gt;
+        &lt;order&gt;1&lt;/order&gt;
+        &lt;prescription/&gt;
+        &lt;source_ui_id&gt;606d6118-84b2-4dc1-8f60-d9d3feb09d6b&lt;/source_ui_id&gt;
+        &lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2024-01-19 11:01:34&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;db90220e47bf3510569f962f316d4312&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_scope display_value="Technical Repo"&gt;6362d051072ff5d05295f19d7c1ed08f&lt;/sys_scope&gt;
+        &lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2024-01-19 11:01:34&lt;/sys_updated_on&gt;
+        &lt;transform_compositions&gt;[{"id":"d57a5377c72333003884f80bf4c260f9","transformType":null,"transformDefinition":null,"order":0,"parameters":[{"id":null,"name":"separator","label":"Separator","order":0,"attributes":{},"value":".","type":"string","defaultValue":"","typeLabel":null,"mandatory":false,"choices":[]}]}]&lt;/transform_compositions&gt;
+        &lt;transform_definition_id display_value="split"&gt;2f3a1377c72333003884f80bf4c26038&lt;/transform_definition_id&gt;
+        &lt;ui_id&gt;2baae121-1050-4d1b-8671-40b3cc7c9407&lt;/ui_id&gt;
+    &lt;/sys_hub_pill_compound&gt;
+    &lt;sys_hub_flow_variable action="delete_multiple" query="model=25ef564a47bf3510569f962f316d43ba^sys_idNOT INe8702eca47bf3510569f962f316d4360"/&gt;
+    &lt;sys_hub_flow_variable action="INSERT_OR_UPDATE"&gt;
+        &lt;active&gt;true&lt;/active&gt;
+        &lt;array&gt;false&lt;/array&gt;
+        &lt;array_denormalized&gt;false&lt;/array_denormalized&gt;
+        &lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=5ce7e589-ac41-47da-be67-77795fbaced6&lt;/attributes&gt;
+        &lt;audit&gt;false&lt;/audit&gt;
+        &lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;
+        &lt;choice/&gt;
+        &lt;choice_field/&gt;
+        &lt;choice_table/&gt;
+        &lt;column_label/&gt;
+        &lt;comments/&gt;
+        &lt;create_roles/&gt;
+        &lt;default_value/&gt;
+        &lt;defaultsort/&gt;
+        &lt;delete_roles/&gt;
+        &lt;dependent/&gt;
+        &lt;dependent_on_field/&gt;
+        &lt;display&gt;false&lt;/display&gt;
+        &lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;
+        &lt;dynamic_creation_script/&gt;
+        &lt;dynamic_default_value/&gt;
+        &lt;dynamic_ref_qual/&gt;
+        &lt;element&gt;model&lt;/element&gt;
+        &lt;element_reference&gt;false&lt;/element_reference&gt;
+        &lt;foreign_database/&gt;
+        &lt;formula/&gt;
+        &lt;function_definition/&gt;
+        &lt;function_field&gt;false&lt;/function_field&gt;
+        &lt;help/&gt;
+        &lt;hint/&gt;
+        &lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;
+        &lt;label&gt;Model&lt;/label&gt;
+        &lt;mandatory&gt;false&lt;/mandatory&gt;
+        &lt;max_length&gt;8000&lt;/max_length&gt;
+        &lt;model display_value="Get Model From CI"&gt;25ef564a47bf3510569f962f316d43ba&lt;/model&gt;
+        &lt;model_id&gt;25ef564a47bf3510569f962f316d43ba&lt;/model_id&gt;
+        &lt;model_table&gt;sys_hub_flow&lt;/model_table&gt;
+        &lt;name&gt;var__m_sys_hub_flow_variable_25ef564a47bf3510569f962f316d43ba&lt;/name&gt;
+        &lt;next_element/&gt;
+        &lt;order&gt;0&lt;/order&gt;
+        &lt;primary&gt;false&lt;/primary&gt;
+        &lt;read_only&gt;false&lt;/read_only&gt;
+        &lt;read_roles/&gt;
+        &lt;reference/&gt;
+        &lt;reference_cascade_rule/&gt;
+        &lt;reference_floats&gt;false&lt;/reference_floats&gt;
+        &lt;reference_key/&gt;
+        &lt;reference_qual/&gt;
+        &lt;reference_qual_condition/&gt;
+        &lt;reference_type/&gt;
+        &lt;sizeclass/&gt;
+        &lt;spell_check&gt;false&lt;/spell_check&gt;
+        &lt;staged&gt;false&lt;/staged&gt;
+        &lt;sys_class_name&gt;sys_hub_flow_variable&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2024-01-19 11:00:50&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;e8702eca47bf3510569f962f316d4360&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_name/&gt;
+        &lt;sys_package/&gt;
+        &lt;sys_policy/&gt;
+        &lt;sys_scope display_value="Technical Repo"&gt;6362d051072ff5d05295f19d7c1ed08f&lt;/sys_scope&gt;
+        &lt;sys_update_name/&gt;
+        &lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2024-01-19 11:00:50&lt;/sys_updated_on&gt;
+        &lt;table_reference&gt;false&lt;/table_reference&gt;
+        &lt;text_index&gt;false&lt;/text_index&gt;
+        &lt;unique&gt;false&lt;/unique&gt;
+        &lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;
+        &lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;
+        &lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;
+        &lt;virtual&gt;false&lt;/virtual&gt;
+        &lt;virtual_type&gt;script&lt;/virtual_type&gt;
+        &lt;widget/&gt;
+        &lt;write_roles/&gt;
+        &lt;xml_view&gt;false&lt;/xml_view&gt;
+    &lt;/sys_hub_flow_variable&gt;
+    &lt;sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_25ef564a47bf3510569f962f316d43ba^sys_idNOT IN5390220e47bf3510569f962f316d4307"/&gt;
+    &lt;sys_documentation action="INSERT_OR_UPDATE"&gt;
+        &lt;element&gt;network_gear&lt;/element&gt;
+        &lt;help/&gt;
+        &lt;hint/&gt;
+        &lt;label&gt;Network Gear&lt;/label&gt;
+        &lt;language&gt;en&lt;/language&gt;
+        &lt;name&gt;var__m_sys_hub_flow_input_25ef564a47bf3510569f962f316d43ba&lt;/name&gt;
+        &lt;plural/&gt;
+        &lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2024-01-19 11:01:34&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;5390220e47bf3510569f962f316d4307&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_name/&gt;
+        &lt;sys_package display_value="Technical Repo" source="x_207260_technic_0"&gt;6362d051072ff5d05295f19d7c1ed08f&lt;/sys_package&gt;
+        &lt;sys_policy/&gt;
+        &lt;sys_scope display_value="Technical Repo"&gt;6362d051072ff5d05295f19d7c1ed08f&lt;/sys_scope&gt;
+        &lt;sys_update_name/&gt;
+        &lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2024-01-19 11:01:34&lt;/sys_updated_on&gt;
+        &lt;url/&gt;
+        &lt;url_target/&gt;
+    &lt;/sys_documentation&gt;
+    &lt;sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_25ef564a47bf3510569f962f316d43ba"/&gt;
+    &lt;sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_25ef564a47bf3510569f962f316d43ba"/&gt;
+    &lt;sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_25ef564a47bf3510569f962f316d43ba"/&gt;
+    &lt;sys_flow_trigger_plan action="delete_multiple" query="plan_id=25ef564a47bf3510569f962f316d43ba"/&gt;
+    &lt;sys_flow_subflow_plan action="delete_multiple" query="plan_id=25ef564a47bf3510569f962f316d43ba"/&gt;
+&lt;/record_update&gt;</payload>
+        <payload_hash>1579345746</payload_hash>
+        <record_name>Get Model From CI</record_name>
+        <reverted_from/>
+        <source>0a8b9b11c3fa1210816c9c377d0131a2</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-30 06:43:20</sys_created_on>
+        <sys_id>829bdb51c3fa1210816c9c377d013105</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>194164e075f0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-30 06:43:20</sys_updated_on>
+        <type>Flow</type>
+        <update_guid>429bdb511efa1210bc3fe1670e8fc105</update_guid>
+        <update_guid_history>429bdb511efa1210bc3fe1670e8fc105:1579345746</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-30 06:56:24</sys_created_on>
+        <sys_db_object display_value="" name="sys_hub_flow">sys_hub_flow</sys_db_object>
+        <sys_id>7e02f7adba6f4bfc923c88b48da90a99</sys_id>
+        <sys_metadata>25ef564a47bf3510569f962f316d43ba</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Get Model From CI</sys_name>
+        <sys_package display_value="Technical Repo" source="x_207260_technic_0">6362d051072ff5d05295f19d7c1ed08f</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Technical Repo">6362d051072ff5d05295f19d7c1ed08f</sys_scope>
+        <sys_scope_delete display_value="">9ee46e1ac4cf42e59c28b7b0b296da89</sys_scope_delete>
+        <sys_update_name>sys_hub_flow_25ef564a47bf3510569f962f316d43ba</sys_update_name>
+        <sys_update_version display_value="sys_hub_flow_25ef564a47bf3510569f962f316d43ba">829bdb51c3fa1210816c9c377d013105</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-30 06:56:24</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
