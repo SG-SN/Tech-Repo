@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="x_207260_technic_0_useful_scripts">
+    <x_207260_technic_0_useful_scripts action="INSERT_OR_UPDATE">
+        <name>How would you configure Access Control Lists (ACLs) in ServiceNow for the following table and roles?</name>
+        <number>SCRIPT0001001</number>
+        <script><![CDATA[// How would you configure Access Control Lists (ACLs) in ServiceNow for the following table and roles?
+ 
+// Table: Table1 with columns F1, F2, F3, F4 (all strings), and F5 (journal input).
+ 
+// Roles and Permissions:
+// - custom_read: Should have read access to F1, F2, F3, F4 and read/write access to F5.
+// - custom_write: Should have read/write access to F1, F2, F3, F4, and F5.
+ 
+// Instructions:
+// 1. Define the ACLs required for the custom_read role to ensure it can read F1, F2, F3, F4 and read/write F5.
+// 2. Define the ACLs required for the custom_write role to ensure it can read/write F1, F2, F3, F4, and F5.
+ 
+// What specific ACL entries would you create in ServiceNow to meet these requirements?]]></script>
+        <sys_class_name>x_207260_technic_0_useful_scripts</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-14 04:00:48</sys_created_on>
+        <sys_id>6926c49653075210ad0038b0a0490e85</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>How would you configure Access Control Lists (ACLs) in ServiceNow for the following table and roles?</sys_name>
+        <sys_package display_value="Technical Repo" source="x_207260_technic_0">6362d051072ff5d05295f19d7c1ed08f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Technical Repo">6362d051072ff5d05295f19d7c1ed08f</sys_scope>
+        <sys_update_name>x_207260_technic_0_useful_scripts_6926c49653075210ad0038b0a0490e85</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-14 04:00:48</sys_updated_on>
+    </x_207260_technic_0_useful_scripts>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>6926c49653075210ad0038b0a0490e85</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-14 04:00:48</sys_created_on>
+        <sys_id>ef368c5653075210ad0038b0a0490ef9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-14 04:00:48</sys_updated_on>
+        <table>x_207260_technic_0_useful_scripts</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>
